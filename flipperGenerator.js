@@ -58,6 +58,9 @@ function allNumeric(inputText) {
 function allAlphaNumericUnderscore(inputText) {
   return /^[A-Za-z_0-9]+$/.test(inputText);
 }
+function allBinary(inputText) {
+  return /^[0-1]+$/.test(inputText);
+}
 function getGenerateModal() {
   var generateModal = new bootstrap.Modal(
     document.getElementById("generateModal"),
@@ -82,6 +85,9 @@ function appendTextGenerateModal(message) {
 }
 function getHtmlGenerateModal() {
   return document.getElementById("generateMessageModal").innerHTML.toString();
+}
+function splitIntoPairs(inputString) {
+  return inputString.match(/(..?)/g);
 }
 MegaCode_Block: {
   const formMegaCode = document.getElementById("generateMegaCode");
@@ -246,8 +252,106 @@ H10301_Block: {
     return returnUrl;
   }
 }
+Firefly_Block: {
+  const formFirefly = document.getElementById("generateFirefly");
 
+  formFirefly.addEventListener("submit", (event) => {
+    event.preventDefault();
+    var generateModal = getGenerateModal();
+    clearGenerateModal();
+    var nameFirefly = formFirefly.elements["nameFirefly"].value;
+    nameFirefly = cleanString(nameFirefly);
+    if (nameFirefly.length <= 0) {
+      nameFirefly = "NoName";
+    }
+    var codeFirefly = formFirefly.elements["codeFirefly"].value;
+    codeFirefly = cleanString(codeFirefly);
+    var codeIntFirefly = pad(parseInt(codeFirefly), 10);
+    if (
+      codeIntFirefly.length != 10 ||
+      !allBinary(codeFirefly) ||
+      !allAlphaNumericUnderscore(nameFirefly)
+    ) {
+      setTextGenerateModal("Name Or Value Error");
+    } else {
+      var hexFirefly = getFireflyHex(codeIntFirefly);
+      setButtonGenerateModal(genUrlFirefly(nameFirefly, hexFirefly));
+      setTextGenerateModal("Name: " + nameFirefly + ".sub");
+      appendTextGenerateModal("Hex: " + hexFirefly);
+      appendTextGenerateModal("Binary: " + codeIntFirefly);
+    }
+    generateModal.show();
+  });
+  /*  function getFireflyBin(codeData, facData) {
+    var hexData = getFireflyHex(codeData, facData);
+    var binData = hexToBin(hexData);
+    binData = pad(binData, 24);
+    return binData;
+  }*/
+  function getFireflyHex(codeData) {
+    var codeHex = binToHex(codeData);
+    codeHex = pad(codeHex, 10);
+    return codeHex;
+  }
+
+  function genUrlFirefly(keyName, hexData) {
+    var shortName = keyName;
+    if (shortName.length > 10) {
+      shortName = shortName.slice(0, 10) + "..";
+    }
+    hexData = pad(hexData, 16);
+    var urlFirefly = genUrlSub(
+      keyName,
+      "Flipper SubGhz Key File",
+      "1",
+      "300000000",
+      "FuriHalSubGhzPresetOok650Async",
+      "Firefly",
+      "10",
+      hexData
+    );
+    var returnUrl =
+      '<a href="' +
+      urlFirefly +
+      '" class="btn btn-primary" target="_blank">Download ' +
+      shortName +
+      ".sub</a>";
+    return returnUrl;
+  }
+}
 General: {
+  function genUrlSub(
+    keyName,
+    fileType,
+    version,
+    frequency,
+    preset,
+    protocol,
+    bitLength,
+    keyData
+  ) {
+    var encodedFileType = fileType.replace(" ", "+");
+    var encodedKey = splitIntoPairs(keyData).join("+");
+    var returnUrl =
+      "https://dev.flpr.app/s#path=subghz/" +
+      keyName +
+      ".sub&Filetype=" +
+      encodedFileType +
+      "&Version=" +
+      version +
+      "&Frequency=" +
+      frequency +
+      "&Preset=" +
+      preset +
+      "&Protocol=" +
+      protocol +
+      "&Bit=" +
+      bitLength +
+      "&Key=" +
+      encodedKey;
+    return returnUrl;
+  }
+  //needs to be generalized more. ie different bit length
   function genUrlRFID(keyName, keyType, hexData) {
     var kd1 = hexData.slice(0, 2);
     var kd2 = hexData.slice(2, 4);
