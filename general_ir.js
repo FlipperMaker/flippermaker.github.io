@@ -40,7 +40,7 @@ function genUrlIrSingleButton(btnName, irType, irProtocol, irAddress, irCommand)
 	var encodedAddress = splitIntoPairs(replaceSpace(irAddress,"")).join("+");
 	var encodedCommand = splitIntoPairs(replaceSpace(irCommand,"")).join("+");
 	//var returnUrl = "&%23=flippermaker.github.io" + "&name=" + btnName + "&type=" + irType + "&protocol=" + irProtocol + "&address=" + encodedAddress + "&command=" + encodedCommand; //%0D%0A \r\n
-	var returnUrl = "%0A%23" + "&name=" + btnName + "&type=" + irType + "&protocol=" + irProtocol + "&address=" + encodedAddress + "&command=" + encodedCommand;
+	var returnUrl = "%0A%23%20" + "&name=" + btnName + "&type=" + irType + "&protocol=" + irProtocol + "&address=" + encodedAddress + "&command=" + encodedCommand;
 	return returnUrl;
 }
 function genUrlIrMultiButtonArray(buttons) {
