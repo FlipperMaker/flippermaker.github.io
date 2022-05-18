@@ -14,7 +14,7 @@ function performImports(){
 	'general_rfid.js',
 	'general_ir.js',
 	'subghz_Firefly.js',
-	'subghz_MegaCode.js',
+	'subghz_Megacode.js',
 	'rfid_H10301.js',
 	'ir_device.js',
 	'cardManager.js'
