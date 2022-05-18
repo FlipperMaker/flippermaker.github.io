@@ -10,190 +10,21 @@
 </head>
 
 <body>
-  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light" style="background-color: #ff8e2b!important;">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="https://raw.githubusercontent.com/FlipperMaker/flippermaker.github.io/main/flipperLogo.jpg" alt="" width="25" height="25" class="d-inline-block align-text-top">
-        <span class="text-white">Flipper Maker</span>
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://github.com/FlipperMaker/flippermaker.github.io" target="_blank">GitHub</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://t.me/nhx00" target="_blank">Telegram</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://discordapp.com/users/509949298859835407" target="_blank">Discord</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://forum.flipperzero.one/u/nhx0" target="_blank">Flipper Forum</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <div class="container-fluid p-2 bg-primary text-white text-center" style="background-color: #fd7e14!important;">
-    <h1>Flipper Maker</h1>
-    <h4>Generate Flipper Files!</h4>
-    <p>On your phone: When you download the files the Flipper Zero app will automatically open and download the file to your Flipper Zero<br />
-      On your PC option 1: Download the generated file, then use qFlipper to download the file to your Flipper Zero.<br />
-      On your PC option 2: Download the generated file, then copy the file to the correct directory on your Flipper Zero's SD Card.</p>
-  </div>
+  <nav id="navBar" class="navbar sticky-top navbar-expand-lg navbar-light bg-light" style="background-color: #ff8e2b!important;"></nav>
+  <div id="topBar" class="container-fluid p-2 bg-primary text-white text-center" style="background-color: #fd7e14!important;"></div>
 
-  <div class="container mt-5">
-    <div class="row">
-      <div class="col-sm-4">
-        <div class="card mb-3">
-          <div class="card-header text-center">
-            <h5 class="card-title">H10301</h5>
-          </div>
+  <div id="cardsAll" class="container mt-5">
 
-          <div class="card-body">
-            <!--<h5 class="card-title">H10301</h5>-->
-            <form id="generateH10301">
-              <div class="mb-3">
-                <label for="nameH10301" class="form-label">File Name</label>
-                <input type="text" class="form-control" id="nameH10301">
-                <div id="nameHelpH10301" class="form-text">Do not include ".rfid" It will be added automatically.</div>
-              </div>
-              <div class="mb-3">
-                <label for="codeH10301" class="form-label">Code</label>
-                <input type="text" class="form-control" id="codeH10301">
-                <div id="codeHelpH10301" class="form-text">Value: 0 to 65535</div>
-              </div>
-              <div class="mb-3">
-                <label for="facH10301" class="form-label">Facility Code</label>
-                <input type="text" class="form-control" id="facH10301">
-                <div id="facHelpH10301" class="form-text">Value: 0-255</div>
-              </div>
-              <button id="generateH10301" type="submit" class="btn btn-primary">Generate</button>
-              <button id="resetH10301" type="reset" class="btn btn-primary">Reset</button>
-
-            </form>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="card mb-3">
-          <div class="card-header text-center">
-            <h5 class="card-title">MegaCode</h5>
-          </div>
-          <div class="card-body">
-            <!--<h5 class="card-title">MegaCode</h5>-->
-            <form id="generateMegaCode">
-              <div class="mb-3">
-                <label for="nameMegaCode" class="form-label">File Name</label>
-                <input type="text" class="form-control" id="nameMegaCode">
-                <div id="nameHelpMegaCode" class="form-text">Do not include ".sub" It will be added automatically.</div>
-              </div>
-              <div class="mb-3">
-                <label for="codeMegaCode" class="form-label">Code</label>
-                <input type="text" class="form-control" id="codeMegaCode">
-                <div id="codeHelpMegaCode" class="form-text">Value: 0 to 65535</div>
-              </div>
-              <div class="mb-3">
-                <label for="facMegaCode" class="form-label">Facility Code</label>
-                <input type="text" class="form-control" id="facMegaCode">
-                <div id="facHelpMegaCode" class="form-text">Value: 0-15</div>
-              </div>
-              <div class="mb-3">
-                <label for="btnMegaCode" class="form-label">Button Number</label>
-                <input type="text" class="form-control" id="btnMegaCode">
-                <div id="btnHelpMegaCode" class="form-text">Value: 0-7</div>
-              </div>
-              <button id="generateMegaCode" type="submit" class="btn btn-primary">Generate</button>
-              <button id="resetMegaCode" type="reset" class="btn btn-primary">Reset</button>
-
-            </form>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-4">
-        <div class="card mb-3">
-          <div class="card-header text-center">
-            <h5 class="card-title">Firefly</h5>
-          </div>
-
-          <div class="card-body">
-            <!--<h5 class="card-title">Firefly</h5>-->
-            <form id="generateFirefly">
-              <div class="mb-3">
-                <label for="nameFirefly" class="form-label">File Name</label>
-                <input type="text" class="form-control" id="nameFirefly">
-                <div id="nameHelpFirefly" class="form-text">Do not include ".sub" It will be added automatically.</div>
-              </div>
-              <div class="mb-3">
-                <label for="codeFirefly" class="form-label">Dip Switches</label>
-                <input type="text" class="form-control" id="codeFirefly">
-                <div id="codeHelpFirefly" class="form-text">Example: 0111100100</div>
-              </div>
-              <button id="generateFirefly" type="submit" class="btn btn-primary">Generate</button>
-              <button id="resetFirefly" type="reset" class="btn btn-primary">Reset</button>
-
-            </form>
-          </div>
-        </div>
-      </div>
-      <!--<div class="col-sm-4">
-        <div class="card mb-3">
-          <div class="card-header text-center">
-            <h5 class="card-title">Test</h5>
-          </div>
-          <div class="card-body">
-            <p id="outputTest" class="card-text">Text</p>
-            <form id="generateTest">
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Code</label>
-                <input type="text" class="form-control" id="codeTest">
-                <div id="codeHelpTest" class="form-text">Value: 0 to 65535</div>
-              </div>
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Code</label>
-                <input type="text" class="form-control" id="codeTest">
-                <div id="codeHelpTest" class="form-text">Value: 0 to 65535</div>
-              </div>
-              <button id="generateTest" type="submit" class="btn btn-primary">Generate</button>
-            </form>
-          </div>
-        </div>
-      </div>-->
-    </div>
   </div>
   <br />
-  <!-- Modal -->
-  <div class="modal fade" id="generateModal" tabindex="-1" aria-labelledby="generateModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="generateModalLabel">Output</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <div id="generateMessageModal"></div>
-
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <div id="generateButtonModal">asdf</div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <footer class="footer mt-auto py-3 bg-light">
-    <div class="container">
-      <span class="text-muted">https://github.com/FlipperMaker/flippermaker.github.io</span>
-    </div>
-  </footer>
+  <div class="modal fade" id="generateModal" tabindex="-1" aria-labelledby="generateModalLabel" aria-hidden="true"></div>
+  <footer id="footerBar" class="footer mt-auto py-3 bg-light"></footer>
 </body>
-<script src="flipperGenerator.js"></script>
+
+<script src="general_page.js"></script>
+<script src="index.js"></script>
+
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-K5D9WT1H6P"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
