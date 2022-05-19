@@ -590,6 +590,52 @@ class irGeneric{
 		this.irConsoles["Xbox"].addButton(new irDeviceButton("Xbox_right", "parsed", "NECext", "80 D8 00 00", "21 DE 00 00"));
 		this.irConsoles["Xbox"].addButton(new irDeviceButton("Xbox_select", "parsed", "NECext", "80 D8 00 00", "22 DD 00 00"));
 		this.irAll["consoles_Xbox"] = this.irConsoles["Xbox"];		
+
+		// Talon Media Remote for Xbox One (Model: 048-083-NA)
+		this.irConsoles["Xbox_Media_Remote"] = new irDevice("Xbox_Media_Remote");
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_home", "parsed", "NECext", "80 D8 00 00", "64 9B 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_view", "parsed", "NECext", "80 D8 00 00", "6E 91 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_menu", "parsed", "NECext", "80 D8 00 00", "6F 90 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_play_pause", "parsed", "NECext", "80 D8 00 00", "70 8F 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_fast_forward", "parsed", "NECext", "80 D8 00 00", "14 EB 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_rewind", "parsed", "NECext", "80 D8 00 00", "15 EA 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_next_track", "parsed", "NECext", "80 D8 00 00", "1A E5 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_last_track", "parsed", "NECext", "80 D8 00 00", "1B E4 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_stop", "parsed", "NECext", "80 D8 00 00", "19 E6 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_record", "parsed", "NECext", "80 D8 00 00", "17 E8 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_select", "parsed", "NECext", "80 D8 00 00", "22 DD 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_up", "parsed", "NECext", "80 D8 00 00", "1E E1 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_down", "parsed", "NECext", "80 D8 00 00", "1F E0 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_left", "parsed", "NECext", "80 D8 00 00", "20 DF 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_right", "parsed", "NECext", "80 D8 00 00", "21 DE 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_a", "parsed", "NECext", "80 D8 00 00", "66 99 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_b", "parsed", "NECext", "80 D8 00 00", "65 9A 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_x", "parsed", "NECext", "80 D8 00 00", "68 97 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_y", "parsed", "NECext", "80 D8 00 00", "67 98 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_back", "parsed", "NECext", "80 D8 00 00", "23 DC 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_oneguide", "parsed", "NECext", "80 D8 00 00", "26 D9 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_captions", "parsed", "NECext", "80 D8 00 00", "4D B2 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_movies", "parsed", "NECext", "80 D8 00 00", "71 8E 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_tv_shows", "parsed", "NECext", "80 D8 00 00", "72 8D 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_mute", "parsed", "NECext", "80 D8 00 00", "0E F1 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_vol_up", "parsed", "NECext", "80 D8 00 00", "10 EF 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_vol_down", "parsed", "NECext", "80 D8 00 00", "11 EE 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_ch_up", "parsed", "NECext", "80 D8 00 00", "12 ED 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_ch_down", "parsed", "NECext", "80 D8 00 00", "13 EC 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_skip_back", "parsed", "NECext", "80 D8 00 00", "25 DA 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_clr", "parsed", "NECext", "80 D8 00 00", "00 FF 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_dot", "parsed", "NECext", "80 D8 00 00", "1D E2 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_0", "parsed", "NECext", "80 D8 00 00", "00 FF 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_1", "parsed", "NECext", "80 D8 00 00", "01 FE 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_2", "parsed", "NECext", "80 D8 00 00", "02 FD 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_3", "parsed", "NECext", "80 D8 00 00", "03 FC 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_4", "parsed", "NECext", "80 D8 00 00", "04 FB 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_5", "parsed", "NECext", "80 D8 00 00", "05 FA 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_6", "parsed", "NECext", "80 D8 00 00", "06 F9 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_7", "parsed", "NECext", "80 D8 00 00", "07 F8 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_8", "parsed", "NECext", "80 D8 00 00", "08 F7 00 00"));
+		this.irConsoles["Xbox_Media_Remote"].addButton(new irDeviceButton("Xbox_9", "parsed", "NECext", "80 D8 00 00", "09 F6 00 00"));
+		this.irAll["consoles_Xbox_Media_Remote"] = this.irConsoles["Xbox_Media_Remote"];		
 	}
 	createIrDevicesConvertersDb(){
 		this.irConverters["RME_ADI_2_DAC_FS"] = new irDevice("RME_ADI_2_DAC_FS");
