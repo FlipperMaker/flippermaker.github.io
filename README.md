@@ -9,11 +9,12 @@ Community updates/pull requests are encouraged!
 * On your PC option 2: Download the generated file, then copy the file to the correct directory on your Flipper Zero's SD Card.
 
 
-## Update 5/19/2022
-* Added `parseIRDB.py` for generating part of JavaScript that stores IR devices
+## Update 5/20/2022
+* Added support for TouchTunes files! Brute force coming soon.
 * [`Previous Updates`](https://github.com/FlipperMaker/flippermaker.github.io/discussions/categories/updates)
 
 ## Currently Supported:
+* TouchTunes
 * IR
 * MegaCode
 * H10301
@@ -22,6 +23,7 @@ Community updates/pull requests are encouraged!
 
 ## Thank you...
 * [`Flipper-IRDB by logickworkshop` for hosting the IR files](https://github.com/logickworkshop/Flipper-IRDB)
+* [`FlipperZero-TouchTunes` Dumps of TouchTune's remote.](https://github.com/jimilinuxguy/flipperzero-touchtunes)
 * [`Awesome Flipper Zero` for being awesome!](https://github.com/djsime1/awesome-flipperzero)
 
 ## Contributors 
