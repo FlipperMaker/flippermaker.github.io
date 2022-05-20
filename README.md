@@ -9,9 +9,9 @@ Community updates/pull requests are encouraged!
 * On your PC option 2: Download the generated file, then copy the file to the correct directory on your Flipper Zero's SD Card.
 
 
-## Update 5/18/2022
-* Almost complete rewite of code. Now more modular.
-* IR support! You can now generate IR files for a wide range of devices and brands!
+## Update 5/19/2022
+* Added `parseIRDB.py` for generating part of JavaScript that stores IR devices
+* [`Previous Updates`](https://github.com/FlipperMaker/flippermaker.github.io/discussions/categories/updates)
 
 ## Currently Supported:
 * IR
@@ -19,3 +19,21 @@ Community updates/pull requests are encouraged!
 * H10301
 * FireFly
 * *More Coming Soon!*
+
+## Thank you...
+* [`Flipper-IRDB by logickworkshop` for hosting the IR files](https://github.com/logickworkshop/Flipper-IRDB)
+* [`Awesome Flipper Zero` for being awesome!](https://github.com/djsime1/awesome-flipperzero)
+
+## Contributors 
+* [`Mike Brown` (maikthulhu) for contributing new IR codes](https://github.com/maikthulhu)
+
+<br />
+<br />
+
+<hr>
+<h3 align="center">Want to make changes?</h3>
+<div align="center">
+  You can add features by opening a Pull Request,
+  or <kbd><a href="https://github.com/FlipperMaker/flippermaker.github.io/discussions/categories/ideas">Start a discussion</a></kbd> with your ideas.<br>
+  <em>(A GitHub account is required)</em>
+</div>
