@@ -88,7 +88,9 @@ class subghzTouchTunes{
 				setTextGenerateModal("Input Value Error");
 			} else {
 				var signalTouchTunes = this.getButton(pinPaddedTouchTunes, btnTouchTunes);
-				
+				if(nameTouchTunes == "NoName"){
+					nameTouchTunes = "TT"+pinPaddedTouchTunes+"_"+btnTouchTunes;
+				}
 				setButtonGenerateModal(this.genDownloadButtonTouchTunes(nameTouchTunes, signalTouchTunes));
 				setTextGenerateModal("Name: " + nameTouchTunes + ".sub");
 				appendTextGenerateModal("Pin: " + pinTouchTunes);
