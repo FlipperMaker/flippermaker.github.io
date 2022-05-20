@@ -47,11 +47,11 @@ class cardManager{
 		//console.log('<div id="'+cardObj.cardSpanName+'" class="col-sm-4"></div>');
 		return '<div id="'+cardObj.cardSpanName+'" class="col-sm-4"></div>';
 	}
-	showAllCards(targetID){
+	showAllCards(targetID){ //NOTE: Render order for index
 		var ret = '<div class="row">';
 		this.irCards.forEach(c => {ret = ret + this.genShowAllCardsRow(c); });
-		this.rfidCards.forEach(c => {ret = ret + this.genShowAllCardsRow(c); });
 		this.subghzCards.forEach(c => {ret = ret + this.genShowAllCardsRow(c); });
+		this.rfidCards.forEach(c => {ret = ret + this.genShowAllCardsRow(c); });
 		//c => {}
 		ret = ret + '</div>';
 		document.getElementById(targetID).innerHTML = ret;
