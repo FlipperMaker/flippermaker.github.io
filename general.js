@@ -4,10 +4,16 @@ function cleanString(inputString) {
 function replaceSpace(inputString, replacement) {
   return inputString.toString().replace(/\s/g, replacement);
 }
+function urlEncodeSpace(inputString) {
+  return replaceSpace(inputString, "+");
+}
 function pad(num, size) {
   num = cleanString(num);
   while (num.length < size) num = "0" + num;
   return num;
+}
+function range(size, startAt = 0) {
+    return [...Array(size).keys()].map(i => i + startAt);
 }
 function intToHex(inputNumber) {
   var hexString = parseInt(inputNumber, 10).toString(16);
@@ -66,6 +72,16 @@ function allBinary(inputText) {
 }
 function splitIntoPairs(inputString) {
   return inputString.match(/(..?)/g);
+}
+function dictionaryKeySearch(inputDictionary, inputSearchWord){
+	var ret = null;
+	for (let i in inputDictionary) {
+		if(inputSearchWord.toString().trim().toLowerCase() == i.toString().trim().toLowerCase()){
+			ret = inputDictionary[i];
+			break;
+		}
+	}
+	return ret;
 }
 
 
