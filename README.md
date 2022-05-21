@@ -9,11 +9,12 @@ Community updates/pull requests are encouraged!
 * On your PC option 2: Download the generated file, then copy the file to the correct directory on your Flipper Zero's SD Card.
 
 
-## Update 5/20/2022
-* Added support for brute force TouchTunes files! You can now brute force all the pins for a specific button
+## Update 5/21/2022
+* OOK to .sub support! You can now convert raw OOK binary/hex to a .sub file
 * [`Previous Updates`](https://github.com/FlipperMaker/flippermaker.github.io/discussions/categories/updates)
 
 ## Currently Supported:
+* OOK to .sub
 * TouchTunes
 * IR
 * MegaCode
