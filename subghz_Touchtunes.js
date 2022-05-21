@@ -23,7 +23,7 @@ class subghzTouchTunes{
 					<select id="btnTouchTunes" class="form-select" aria-label="Default select">
 					  <option value= "all" selected>ALL</option>
 					</select>
-					<div id="btnHelpTouchTunes" class="form-text">*Brute Force Coming Soon!</div>
+					<div id="btnHelpTouchTunes" class="form-text"></div>
 				  </div>
 				  <button id="generateTouchTunes" type="submit" class="btn btn-primary">Generate</button>
 				  <button id="resetTouchTunes" type="reset" class="btn btn-primary">Reset</button>
