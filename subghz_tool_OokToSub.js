@@ -304,7 +304,7 @@ class subghztoolOokToSub{
 			var out_downloadButton = this.genDownloadButtonOokToSub(formFileNameValue, out_subghzDeviceSignalRawMulti);
 			
 			setButtonGenerateModal(out_downloadButton);
-			setTextGenerateModal("Name: " + nameTouchTunes + ".sub");
+			setTextGenerateModal("Name: " + formFileNameValue + ".sub");
 			appendTextGenerateModal("Transpose: 1->" + formTransposeOneValue);
 			appendTextGenerateModal("Transpose: 0->" + formTransposeZeroValue);
 			appendTextGenerateModal("OOK (Int): " + formBinHexOokValue);
