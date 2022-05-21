@@ -10,7 +10,7 @@ Community updates/pull requests are encouraged!
 
 
 ## Update 5/20/2022
-* Added support for TouchTunes files! Brute force coming soon.
+* Added support for brute force TouchTunes files! You can now brute force all the pins for a specific button
 * [`Previous Updates`](https://github.com/FlipperMaker/flippermaker.github.io/discussions/categories/updates)
 
 ## Currently Supported:
@@ -24,6 +24,8 @@ Community updates/pull requests are encouraged!
 ## Thank you...
 * [`Flipper-IRDB by logickworkshop` for hosting the IR files](https://github.com/logickworkshop/Flipper-IRDB)
 * [`FlipperZero-TouchTunes` Dumps of TouchTune's remote.](https://github.com/jimilinuxguy/flipperzero-touchtunes)
+* [`The Fonz` TouchTunes project by NotPike](https://github.com/notpike/The-Fonz)
+* [`OOK to Sub` by jinschoi](https://gist.github.com/jinschoi/f39dbd82e4e3d99d32ab6a9b8dfc2f55)
 * [`Awesome Flipper Zero` for being awesome!](https://github.com/djsime1/awesome-flipperzero)
 
 ## Contributors 
