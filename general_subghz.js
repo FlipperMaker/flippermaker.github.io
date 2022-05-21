@@ -85,8 +85,8 @@ function genUrlSub(keyName, fileType, version, frequency, preset, protocol, bitL
 	var returnUrl = "https://dev.flpr.app/s#path=subghz/" + keyName + ".sub&Filetype=" + encodedFileType + "&Version=" + version + "&Frequency=" + frequency + "&Preset=" + preset + "&Protocol=" + protocol + "&Bit=" + bitLength + "&Key=" + encodedKey;
 	return returnUrl;
 }
-function genUrlSub_Raw(keyName, fileType, version, frequency, preset, protocol, rawDataFormatted_Array, prefix = "RAW_Data") { //not done
-	var encodedFileType = fileType.replace(" ", "+");
+
+function rawDataSubFormattedArray_to_Url(rawDataFormatted_Array, prefix = "RAW_Data"){
 	var rawData = "";
 	for(let i in rawDataFormatted_Array){
 		var line = rawDataFormatted_Array[i];
@@ -94,8 +94,21 @@ function genUrlSub_Raw(keyName, fileType, version, frequency, preset, protocol, 
 		line = line.replace("-","%2D");
 		line = replaceSpace(line, "%20");
 		line = line.trim();
-		rawData = rawData + "&RAW_Data="+line;
+		rawData = rawData + "&" + prefix + "=" + line;
 	}
+	return rawData;
+}
+function genUrlSub_Raw_StringRawData(keyName, fileType, version, frequency, preset, protocol, rawDataFormatted_String) {
+	var encodedFileType = fileType.replace(" ", "+");
+	var rawData = rawDataFormatted_String;
+	keyName = replaceSpace(keyName, "_");
+	fileType = replaceSpace(fileType, "%20");
+	var returnUrl = "https://dev.flpr.app/s#path=subghz/" + keyName + ".sub&Filetype=" + fileType + "&Version=" + version + "&Frequency=" + frequency + "&Preset=" + preset + "&Protocol=" + protocol + rawData;
+	return returnUrl;
+}
+function genUrlSub_Raw(keyName, fileType, version, frequency, preset, protocol, rawDataFormatted_Array, prefix = "RAW_Data") {
+	var encodedFileType = fileType.replace(" ", "+");
+	var rawData = rawDataSubFormattedArray_to_Url(rawDataFormatted_Array, prefix);
 	keyName = replaceSpace(keyName, "_");
 	fileType = replaceSpace(fileType, "%20");
 	var returnUrl = "https://dev.flpr.app/s#path=subghz/" + keyName + ".sub&Filetype=" + fileType + "&Version=" + version + "&Frequency=" + frequency + "&Preset=" + preset + "&Protocol=" + protocol + rawData;
@@ -143,6 +156,7 @@ function ookToSubRaw(inputName, inputFileType, inputVersion, inputFrequency, inp
 }
 
 
+//for debugging
 function ookToSubRawText(inputFileType, inputVersion, inputFrequency, inputPreset, inputProtocol, inputOneLen, inputZeroLen, inputRepeats, inputPause, inputOokBits){
 	var res = "Filetype: "+urlEncodeSpace(inputFileType)+" Version: "+inputVersion.toString()+" Frequency: "+inputFrequency.toString()+" Preset: "+inputPreset.toString()+" Protocol: "+inputProtocol.toString()+" ";
 	if(parseInt(inputPause) == 0){

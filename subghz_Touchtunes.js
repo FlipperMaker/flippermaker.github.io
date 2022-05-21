@@ -15,8 +15,8 @@ class subghzTouchTunes{
 				  </div>
 				  <div class="mb-3">
 					<label for="pinTouchTunes" class="form-label">Pin</label>
-					<input type="text" class="form-control" id="pinTouchTunes">
-					<div id="codeHelpTouchTunes" class="form-text">Value: 0 to 254</div>
+					<input type="text" class="form-control" id="pinTouchTunes" placeholder="Ex: 123, brute, all">
+					<div id="codeHelpTouchTunes" class="form-text">Value: 0 to 254 -or- "brute" or "all" to generate a file that will brute force all the pins for the selected button.</div>
 				  </div>
 				  <div class="mb-3">
 					<label for="btnTouchTunes" class="form-label">Button Number</label>
@@ -173,8 +173,14 @@ class subghzTouchTunes{
 				nameTouchTunes = "NoName";
 			}
 			//Pin
+			var bruteForce = false;
 			var pinTouchTunes = this.getFormDevicePin(true);
 			if( pinTouchTunes.toString().length == 0 ) { pinTouchTunes = "0"; }
+			if(pinTouchTunes.toString().trim().toLowerCase() == "brute" || pinTouchTunes.toString().trim().toLowerCase() == "all"){
+				bruteForce = true;
+				pinTouchTunes = "0";
+			}
+			
 			var pinIntTouchTunes = parseInt(pinTouchTunes);
 			var pinPaddedTouchTunes = pad(pinIntTouchTunes, 3);
 			var btnTouchTunes = this.getFormTargetButton(true);
@@ -187,20 +193,49 @@ class subghzTouchTunes{
 			} else {
 				
 				if(nameTouchTunes == "NoName"){
-					nameTouchTunes = "TT"+pinPaddedTouchTunes+"_"+btnTouchTunes;
+					nameTouchTunes = "TT"+(bruteForce ? "all" : pinPaddedTouchTunes )+"_"+btnTouchTunes;
 				}
-				var btnHexTouchTunes = this.getButtonHex(btnTouchTunes);
-				var ookTouchTunes = this.getButtonOok(pinIntTouchTunes, btnHexTouchTunes);
-				var signalTouchTunes = this.getButtonSub(nameTouchTunes, ookTouchTunes);
-				setButtonGenerateModal(this.genDownloadButtonTouchTunes(nameTouchTunes, signalTouchTunes));
+				var btnHexTouchTunes = 0;
+				var ookTouchTunes = "";
+				var signalTouchTunes = null;
+				var downloadButton = "";
+				if(bruteForce){
+					btnHexTouchTunes = this.getButtonHex(btnTouchTunes);
+					ookTouchTunes = this.getButtonOok(pinIntTouchTunes, btnHexTouchTunes);
+					signalTouchTunes = this.getButtonSub(nameTouchTunes, ookTouchTunes);
+					downloadButton = this.genDownloadButtonTouchTunes(nameTouchTunes, btnHexTouchTunes, bruteForce);
+					
+				}else{
+					btnHexTouchTunes = this.getButtonHex(btnTouchTunes);
+					ookTouchTunes = this.getButtonOok(pinIntTouchTunes, btnHexTouchTunes);
+					signalTouchTunes = this.getButtonSub(nameTouchTunes, ookTouchTunes);
+					downloadButton = this.genDownloadButtonTouchTunes(nameTouchTunes, signalTouchTunes, bruteForce);
+				}
+				setButtonGenerateModal(downloadButton);
 				setTextGenerateModal("Name: " + nameTouchTunes + ".sub");
-				appendTextGenerateModal("Pin: " + pinTouchTunes);
+				appendTextGenerateModal("Pin: " + (bruteForce ? "Brute Force" : pinTouchTunes));
 				appendTextGenerateModal("Button: " + btnTouchTunes + " (0x"+btnHexTouchTunes.toString(16).toUpperCase()+")");
+				
 				//appendTextGenerateModal("OOK: " + ookTouchTunes);
 			}
 			generateModal.show();
 		});		
 		
+	}
+	getBruteForceUrl(keyNameInput, btnHex){
+		var ookPause = "";//000
+		var rawDataLinesUrlParsed = "";
+		var tempButtonSubObj = null;
+		for(let i = 0; i < 255; i++){
+			var tempButtonBin = this.getButtonOok(i, btnHex);
+			tempButtonBin = tempButtonBin.slice(0,-1);
+			tempButtonBin = tempButtonBin + ookPause;
+			tempButtonSubObj = this.getButtonSub("temp", tempButtonBin);
+			rawDataLinesUrlParsed = rawDataLinesUrlParsed + rawDataSubFormattedArray_to_Url(tempButtonSubObj.subghzRAW_Data_ArrayChunkedFormatted);
+		}
+		var ret = genUrlSub_Raw_StringRawData(keyNameInput, tempButtonSubObj.subghzFiletype, tempButtonSubObj.subghzVersion, 
+								tempButtonSubObj.subghzFrequency, tempButtonSubObj.subghzPreset, tempButtonSubObj.subghzProtocol, rawDataLinesUrlParsed);
+		return ret; 
 	}
 	getButtonHex(btn){
 		var searchResults = dictionaryKeySearch(this.commandsHex, btn)
@@ -245,13 +280,14 @@ class subghzTouchTunes{
 								subghzRAW_Data);
 		return url;
 	} */
-	genDownloadButtonTouchTunes(keyName, btn) {
+	genDownloadButtonTouchTunes(keyName, btn, bruteforce = false) {
 		var shortName = keyName;
 		if (shortName.length > 10) {
 			shortName = shortName.slice(0, 10) + "..";
 		}
+		var flipperDownloadUrl = (bruteforce ? this.getBruteForceUrl(keyName, btn) : this.genUrlTouchTunes(keyName, btn));
 		var returnUrl =
-			'<a href="'+this.genUrlTouchTunes(keyName, btn)+'" class="btn btn-primary" target="_blank">Download ' + shortName + ".sub</a>";
+			'<a href="'+flipperDownloadUrl+'" class="btn btn-primary" target="_blank">Download ' + shortName + ".sub</a>";
 		return returnUrl;
 	}
 }
