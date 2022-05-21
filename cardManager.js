@@ -1,6 +1,7 @@
 class cardManager{
 	constructor() {
 		this.subghzCards = [];
+		this.subghzToolCards = [];
 		this.rfidCards = [];
 		this.irCards = [];
 		this.unknownCards = [];
@@ -9,6 +10,9 @@ class cardManager{
 		switch(cardType) {
 			case 'subghz':
 				this.subghzCards.push(cardObject);
+				break;
+			case 'subghztool':
+				this.subghzToolCards.push(cardObject);
 				break;
 			case 'rfid':
 				this.rfidCards.push(cardObject);
@@ -25,6 +29,8 @@ class cardManager{
 		switch(cardType) {
 			case 'subghz':
 				return this.subghzCards;
+			case 'subghztool':
+				return this.subghzToolCards;
 			case 'rfid':
 				return this.rfidCards;
 			case 'ir':
@@ -36,6 +42,9 @@ class cardManager{
 	}
 	addSubghzCard(cardObject){
 		this.addCard('subghz', cardObject);
+	}
+	addSubghztoolCard(cardObject){
+		this.addCard('subghztool', cardObject);
 	}
 	addRfidCard(cardObject){
 		this.addCard('rfid', cardObject);
@@ -52,6 +61,7 @@ class cardManager{
 		this.irCards.forEach(c => {ret = ret + this.genShowAllCardsRow(c); });
 		this.subghzCards.forEach(c => {ret = ret + this.genShowAllCardsRow(c); });
 		this.rfidCards.forEach(c => {ret = ret + this.genShowAllCardsRow(c); });
+		this.subghzToolCards.forEach(c => {ret = ret + this.genShowAllCardsRow(c); });
 		//c => {}
 		ret = ret + '</div>';
 		document.getElementById(targetID).innerHTML = ret;
@@ -72,6 +82,7 @@ class cardManager{
 	renderCards(){
 		this.irCards.forEach(c => {c.renderCard();});
 		this.subghzCards.forEach(c => {c.renderCard();});
+		this.subghzToolCards.forEach(c => {c.renderCard();});
 		this.rfidCards.forEach(c => {c.renderCard();});
 		
 	}

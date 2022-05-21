@@ -16,6 +16,7 @@ function performImports(){
 	'general_rfid.js',
 	'general_ir.js',
 	'subghz_Touchtunes.js',
+	'subghz_tool_OokToSub.js',
 	'subghz_Firefly.js',
 	'subghz_Megacode.js',
 	'rfid_H10301.js',
@@ -30,6 +31,7 @@ function performImports(){
 function createCardManager(){
 	cardManagerInstance = new cardManager();
 	cardManagerInstance.addSubghzCard(new subghzTouchTunes());
+	cardManagerInstance.addSubghztoolCard(new subghztoolOokToSub());
 	cardManagerInstance.addSubghzCard(new subghzMegaCode());
 	cardManagerInstance.addRfidCard(new rfidH10301());
 	cardManagerInstance.addSubghzCard(new subghzFirefly());

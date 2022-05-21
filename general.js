@@ -67,6 +67,9 @@ function allNumeric(inputText) {
 function allAlphaNumericUnderscore(inputText) {
   return /^[A-Za-z_0-9]+$/.test(inputText);
 }
+function allHex(inputText) {
+  return /^[A-Fa-f0-9]+$/.test(inputText);
+}
 function allBinary(inputText) {
   return /^[0-1]+$/.test(inputText);
 }

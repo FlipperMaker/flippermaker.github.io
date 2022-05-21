@@ -1,3 +1,4 @@
+//https://github.com/travisgoodspeed/goodwatch/blob/e4da908f0d872edcfc6c9f4ef529755184933ea2/firmware/apps/jukebox.c
 class subghzTouchTunes{
 	constructor() {
 		this.cardSpanName = 'cardTouchTunes';
@@ -32,7 +33,6 @@ class subghzTouchTunes{
 			  </div>
 			</div>		
 		`;
-		
 		this.buttonsLong = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9',
 							'A_Left_Arrow', 'B_Right_Arrow', 'F1_Restart', 'F2_Key',
 							'F3_Mic_A_Mute', 'F4_Mic_B_Mute', 'Lock_Queue_Hash',
