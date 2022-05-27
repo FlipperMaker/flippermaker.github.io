@@ -5,7 +5,7 @@ class subghzSubghzShare{
 		this.cardCode = `
 			<div class="card mb-3">
 			  <div class="card-header text-center">
-				<h5 class="card-title">Subghz Share</h5>
+				<h5 class="card-title">SubGHz Share</h5>
 			  </div>
 			  <div class="card-body">
 				<form id="generateSubghzShare">
@@ -48,12 +48,12 @@ RAW_Data: -754 361 -17246 131 -8734 65 -71908...
 		//var a = this.getTextFromUrl("https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Tesla_charge_AM650.sub");
 		//this.getBlobTextFromUrl("https://api.github.com/repos/UberGuidoZ/Flipper/git/blobs/8ebc42d06134572f86b71de161c34fcf9be3cd52");
 		
-		//console.log(a);
+		////console.log(a);
 	}
 	getTextFromUrl(urlInput){
 		fetch(urlInput).then(function(response) {
 			return response.text().then(function(file_text) {
-				console.log(file_text)
+				//console.log(file_text)
 			});
 		});
 	}
@@ -71,7 +71,7 @@ RAW_Data: -754 361 -17246 131 -8734 65 -71908...
 				alert('Something went wrong: ' + err);
 			} else {
 				const x = new Response(data.content).text()
-				console.log(x);
+				//console.log(x);
 			}
 		});
 	}
@@ -156,15 +156,17 @@ RAW_Data: -754 361 -17246 131 -8734 65 -71908...
 		var githuburl = this.getFormGithubUrl(true);
 		if (githuburl.length == 0){ return ''; }
 		if (githuburl.includes("https://pastebin.com/raw/")){ return githuburl; }
-		if (!githuburl.includes("raw.githubusercontent.com")){ githuburl = githuburl.replace("github.com", "raw.githubusercontent.com"); }
-		if (!githuburl.includes("https://")){ githuburl = "https://"+githuburl; }
-		if (githuburl.includes("http://")){ githuburl = githuburl.replace("http://", ""); }
-		if (githuburl.includes("/blob")){ githuburl = githuburl.replace("/blob", ""); }
-		var fileType = githuburl.slice(githuburl.length-4,githuburl.length).toLowerCase();
-		if (fileType != ".sub"){ console.log('bad type'); githuburl = ""; }
-		var ghFileName = githuburl.slice(githuburl.lastIndexOf('/')+1,githuburl.length).toLowerCase();
-		if(this.getFormFileName(true).trim().length == 0){this.getForm().elements["nameSubghzShare"].value = ghFileName.replace('.sub', '');}
-		if(this.getFormFileName(true).trim() == "NoName"){this.getForm().elements["nameSubghzShare"].value = ghFileName.replace('.sub', '');}
+		if (githuburl.includes("github")){
+			if (!githuburl.includes("raw.githubusercontent.com")){ githuburl = githuburl.replace("github.com", "raw.githubusercontent.com"); }
+			if (!githuburl.includes("https://")){ githuburl = "https://"+githuburl; }
+			if (githuburl.includes("http://")){ githuburl = githuburl.replace("http://", ""); }
+			if (githuburl.includes("/blob")){ githuburl = githuburl.replace("/blob", ""); }
+			var fileType = githuburl.slice(githuburl.length-4,githuburl.length).toLowerCase();
+			if (fileType != ".sub"){ githuburl = ""; }
+			var ghFileName = githuburl.slice(githuburl.lastIndexOf('/')+1,githuburl.length).toLowerCase();
+			if(this.getFormFileName(true).trim().length == 0){this.getForm().elements["nameSubghzShare"].value = ghFileName.replace('.sub', '');}
+			if(this.getFormFileName(true).trim() == "NoName"){this.getForm().elements["nameSubghzShare"].value = ghFileName.replace('.sub', '');}
+		}
 		return githuburl;
 	}
 	parseFileContentsToUrl(){
@@ -206,7 +208,7 @@ RAW_Data: -754 361 -17246 131 -8734 65 -71908...
 	genDownloadButton() {
 		var shortName = this.getFormFileName(true);
 		var url = this.parseFileContentsToUrl();
-		console.log(url);
+		//console.log(url);
 		if(url == ''){return "";}
 		if (shortName.length > 10) {
 			shortName = shortName.slice(0, 10) + "..";
