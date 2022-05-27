@@ -9,12 +9,11 @@ Community updates/pull requests are encouraged!
 * On your PC option 2: Download the generated file, then copy the file to the correct directory on your Flipper Zero's SD Card.
 
 
-## Update 5/21/2022
-* OOK to .sub support! You can now convert raw OOK binary/hex to a .sub file
+## Update 5/26/2022
+* Create download links for SubGhz files. You can paste in the file content or pull the file directly from GitHub. Makes installing SubGHz files on the go super easy, and sharing your files even easier! 
 * [`Previous Updates`](https://github.com/FlipperMaker/flippermaker.github.io/discussions/categories/updates)
 
-## Currently Supported:
-* OOK to .sub
+## Currently Supported Protocols:
 * TouchTunes
 * IR
 * MegaCode
@@ -22,11 +21,16 @@ Community updates/pull requests are encouraged!
 * FireFly
 * *More Coming Soon!*
 
+## Tools:
+* SubGHz Sharing
+* OOK to .sub
+<br /><br />
 ## Thank you...
 * [`Flipper-IRDB by logickworkshop` for hosting the IR files](https://github.com/logickworkshop/Flipper-IRDB)
 * [`FlipperZero-TouchTunes` Dumps of TouchTune's remote.](https://github.com/jimilinuxguy/flipperzero-touchtunes)
 * [`The Fonz` TouchTunes project by NotPike](https://github.com/notpike/The-Fonz)
 * [`OOK to Sub` by jinschoi](https://gist.github.com/jinschoi/f39dbd82e4e3d99d32ab6a9b8dfc2f55)
+* [`UberGuidoZ` Great repo for finding Flipper Zero files](https://github.com/UberGuidoZ)
 * [`Awesome Flipper Zero` for being awesome!](https://github.com/djsime1/awesome-flipperzero)
 
 ## Contributors 
