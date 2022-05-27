@@ -1,0 +1,14 @@
+################################################
+#Add your own files via a pull request to generalShareFiles.txt
+#OR... Manage your own list on your github by adding your repo url to the file generalShareUrls.txt via a pull request
+#Formats:#######################################
+#[Repo Name]~[Url]
+###The [Author] field will be grabbed automatically from the github url
+#
+#[Url]
+###The [Repo Name] field will be grabbed automatically from the github url
+#
+#NOTES:#########################################
+#A line is only considered a comment if the first character is a '#'
+
+Flipper Maker~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/generalShareFiles.txt
