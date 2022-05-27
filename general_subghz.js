@@ -80,7 +80,7 @@ class subghzDeviceSignalRawMulti{
 
 
 function genUrlSub(keyName, fileType, version, frequency, preset, protocol, bitLength, keyData) {
-	var encodedFileType = fileType.replace(" ", "+");
+	var encodedFileType = fileType.replaceAll(" ", "+");
 	var encodedKey = splitIntoPairs(keyData).join("+");
 	var returnUrl = "https://dev.flpr.app/s#path=subghz/" + keyName + ".sub&Filetype=" + encodedFileType + "&Version=" + version + "&Frequency=" + frequency + "&Preset=" + preset + "&Protocol=" + protocol + "&Bit=" + bitLength + "&Key=" + encodedKey;
 	return returnUrl;
@@ -90,8 +90,8 @@ function rawDataSubFormattedArray_to_Url(rawDataFormatted_Array, prefix = "RAW_D
 	var rawData = "";
 	for(let i in rawDataFormatted_Array){
 		var line = rawDataFormatted_Array[i];
-		line = line.replace("+","%2B");
-		line = line.replace("-","%2D");
+		line = line.replaceAll("+","%2B");
+		line = line.replaceAll("-","%2D");
 		line = replaceSpace(line, "%20");
 		line = line.trim();
 		rawData = rawData + "&" + prefix + "=" + line;
@@ -99,7 +99,7 @@ function rawDataSubFormattedArray_to_Url(rawDataFormatted_Array, prefix = "RAW_D
 	return rawData;
 }
 function genUrlSub_Raw_StringRawData(keyName, fileType, version, frequency, preset, protocol, rawDataFormatted_String) {
-	var encodedFileType = fileType.replace(" ", "+");
+	var encodedFileType = fileType.replaceAll(" ", "+");
 	var rawData = rawDataFormatted_String;
 	keyName = replaceSpace(keyName, "_");
 	fileType = replaceSpace(fileType, "%20");
@@ -107,7 +107,7 @@ function genUrlSub_Raw_StringRawData(keyName, fileType, version, frequency, pres
 	return returnUrl;
 }
 function genUrlSub_Raw(keyName, fileType, version, frequency, preset, protocol, rawDataFormatted_Array, prefix = "RAW_Data") {
-	var encodedFileType = fileType.replace(" ", "+");
+	var encodedFileType = fileType.replaceAll(" ", "+");
 	var rawData = rawDataSubFormattedArray_to_Url(rawDataFormatted_Array, prefix);
 	keyName = replaceSpace(keyName, "_");
 	fileType = replaceSpace(fileType, "%20");

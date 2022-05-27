@@ -1,8 +1,8 @@
 function cleanString(inputString) {
-  return inputString.toString().replace(/\s/g, "");
+  return inputString.toString().replaceAll(/\s/g, "");
 }
 function replaceSpace(inputString, replacement) {
-  return inputString.toString().replace(/\s/g, replacement);
+  return inputString.toString().replaceAll(/\s/g, replacement);
 }
 function urlEncodeSpace(inputString) {
   return replaceSpace(inputString, "+");

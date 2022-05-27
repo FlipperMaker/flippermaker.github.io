@@ -8,7 +8,7 @@ function loadScript(url, callback) {
 	document.head.appendChild(script);
 }
 
-//NOTE: Modify when adding new card
+//NOTE: Modify when adding new card///////////////////////////////////////////////////////////////////////////////
 function performImports(){
 	[
 	'general.js',
@@ -17,6 +17,7 @@ function performImports(){
 	'general_ir.js',
 	'subghz_Touchtunes.js',
 	'subghz_tool_OokToSub.js',
+	'subghz_tool_Share.js',
 	'subghz_Firefly.js',
 	'subghz_Megacode.js',
 	'rfid_H10301.js',
@@ -27,10 +28,11 @@ function performImports(){
 	});
 }
 
-//NOTE: Modify when adding new card
+//NOTE: Modify when adding new card///////////////////////////////////////////////////////////////////////////////
 function createCardManager(){
 	cardManagerInstance = new cardManager();
 	cardManagerInstance.addSubghzCard(new subghzTouchTunes());
+	cardManagerInstance.addSubghztoolCard(new subghzSubghzShare());
 	cardManagerInstance.addSubghztoolCard(new subghztoolOokToSub());
 	cardManagerInstance.addSubghzCard(new subghzMegaCode());
 	cardManagerInstance.addRfidCard(new rfidH10301());
