@@ -1,0 +1,22 @@
+################################################
+#Add your own files via a pull request to this file
+#OR... Manage your own list on your github by adding your repo url to the file generalShareUrls.txt via a pull request
+#Formats:#######################################
+#[File Name]~[Author]~[Url]
+#
+#[File Name]~[Url]
+###The [Author] field will be grabbed automatically from the github url
+#
+#[Url]
+###The [File Name] and [Author] field will be grabbed automatically from the github url
+#
+#NOTES:#########################################
+#A line is only considered a comment if the first character is a '#'
+
+https://github.com/UberGuidoZ/Flipper/blob/main/Sub-GHz/Tesla_charge_AM650.sub
+https://github.com/UberGuidoZ/Flipper/blob/main/Sub-GHz/Tesla_charge_AM270.sub
+Doorbell1~UberGuidoZ~https://github.com/UberGuidoZ/Flipper/blob/main/Sub-GHz/Doorbells/Doorbell1.sub
+Doorbell2.sub~https://github.com/UberGuidoZ/Flipper/blob/main/Sub-GHz/Doorbells/Doorbell2.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Doorbells/DoorbellFM.sub
+https://github.com/UberGuidoZ/Flipper/blob/main/Sub-GHz/Handicap_button_1270.sub
+https://github.com/UberGuidoZ/Flipper/blob/main/Sub-GHz/Handicap_button_1650.sub
