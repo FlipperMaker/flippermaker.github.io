@@ -27,3 +27,8 @@ UberGuidoZ-SubGHz_deBruijn_Binary~https://github.com/FlipperMaker/flippermaker.g
 UberGuidoZ-SubGHz_deBruijn_North Shore Comm Doors~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_deBruijn_North Shore Comm Doors.txt
 UberGuidoZ-SubGHz_deBruijn_Open Sesame~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_deBruijn_Open Sesame.txt
 UberGuidoZ-SubGHz_deBruijn_Raw~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_deBruijn_Raw.txt
+WetoxTeam-intercom_keys_msk_keys_ibutton~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/WetoxTeam_intercom_keys_msk_keys_ibutton.txt
+WetoxTeam-intercom_keys_msk_keys_lfrfid~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/WetoxTeam_intercom_keys_msk_keys_lfrfid.txt
+WetoxTeam-intercom_keys_spb_keys_ibutton~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/WetoxTeam_intercom_keys_spb_keys_ibutton.txt
+WetoxTeam-intercom_keys_spb_keys_lfrfid~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/WetoxTeam_intercom_keys_spb_keys_lfrfid.txt
+WetoxTeam-intercom_keys_spb_keys_nfc~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/WetoxTeam_intercom_keys_spb_keys_nfc.txt
