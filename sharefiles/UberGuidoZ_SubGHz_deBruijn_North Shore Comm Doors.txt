@@ -1,0 +1,6 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/deBruijn/North Shore Comm Doors/NSCD_Garage.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/deBruijn/North Shore Comm Doors/deBruijn300NSCD.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/deBruijn/North Shore Comm Doors/deBruijn310NSCD.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/deBruijn/North Shore Comm Doors/deBruijn315NSCD.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/deBruijn/North Shore Comm Doors/deBruijn318NSCD.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/deBruijn/North Shore Comm Doors/deBruijn390NSCD.sub
