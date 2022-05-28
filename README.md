@@ -9,8 +9,8 @@ Community updates/pull requests are encouraged!
 * On your PC option 2: Download the generated file, then copy the file to the correct directory on your Flipper Zero's SD Card.
 
 
-## Update 5/26/2022
-* Create download links for SubGhz files. You can paste in the file content or pull the file directly from GitHub. Makes installing SubGHz files on the go super easy, and sharing your files even easier! 
+## Update 5/27/2022
+* Create download links for Flipper Zero files. You can paste in the file content, pull the file directly from GitHub, or select from a list of ready to go files. Makes installing Flipper Zero files on the go super easy, and sharing your files even easier! 
 * [`Previous Updates`](https://github.com/FlipperMaker/flippermaker.github.io/discussions/categories/updates)
 
 ## Currently Supported Protocols:
@@ -22,7 +22,7 @@ Community updates/pull requests are encouraged!
 * *More Coming Soon!*
 
 ## Tools:
-* SubGHz Sharing
+* Flipper File Sharing and on-the-go install
 * OOK to .sub
 <br /><br />
 ## Thank you...
