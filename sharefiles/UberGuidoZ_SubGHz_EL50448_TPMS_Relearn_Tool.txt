@@ -1,0 +1,5 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/EL50448_-TPMS_Relearn_Tool/Raw_signal_1.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/EL50448_-TPMS_Relearn_Tool/Raw_signal_2.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/EL50448_-TPMS_Relearn_Tool/Raw_signal_3.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/EL50448_-TPMS_Relearn_Tool/Raw_signal_4.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/EL50448_-TPMS_Relearn_Tool/TPMS raw capture from GM13598772.sub
