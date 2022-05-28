@@ -1,0 +1,2 @@
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/Audio Receivers/Onkyo/Onkyo.ir
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/Audio Receivers/Onkyo/Onkyo_RC627S.ir

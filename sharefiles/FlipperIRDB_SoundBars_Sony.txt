@@ -1,0 +1,3 @@
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/SoundBars/Sony/Sony_MHC-GS300AV.ir
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/SoundBars/Sony/Sony_Old_XBR.ir
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/SoundBars/Sony/Sony_RDH-GTK33IP.ir

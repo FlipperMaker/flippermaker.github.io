@@ -1,0 +1,4 @@
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/TVs/Sony/Sony_Bravia.ir
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/TVs/Sony/Sony_XBR.ir
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/TVs/Sony/Sony_XBR_RM-TD017.ir
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/TVs/Sony/Sony_XBR_RMT-TX200U.ir

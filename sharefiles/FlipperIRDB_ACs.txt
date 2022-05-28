@@ -1,0 +1,2 @@
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/ACs/Koldfront_wac12001.ir
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/ACs/Pelonis_PFS40D6ABB.ir

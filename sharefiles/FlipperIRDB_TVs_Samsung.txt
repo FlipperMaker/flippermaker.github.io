@@ -1,0 +1,6 @@
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/TVs/Samsung/Samsung.ir
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/TVs/Samsung/Samsung_BN59.ir
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/TVs/Samsung/Samsung_BN5901301A.ir
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/TVs/Samsung/Samsung_E6.ir
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/TVs/Samsung/Samsung_TV.ir
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/TVs/Samsung/Samsung_TV_Full.ir

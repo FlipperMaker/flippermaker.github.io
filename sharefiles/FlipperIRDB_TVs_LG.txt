@@ -1,0 +1,2 @@
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/TVs/LG/LG_55UN7300AUD.ir
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/TVs/LG/LG_C1.ir

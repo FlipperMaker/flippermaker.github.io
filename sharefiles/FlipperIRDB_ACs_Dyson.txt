@@ -1,0 +1,3 @@
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/ACs/Dyson/Dyson_Air_Multiplier.ir
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/ACs/Dyson/Dyson_HP01.ir
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/ACs/Dyson/Dyson_HP09.ir

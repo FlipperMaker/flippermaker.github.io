@@ -1,0 +1,2 @@
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/TVs/Sharp/Sharp_Roku_TV.ir
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/TVs/Sharp/Sharp_tv.ir

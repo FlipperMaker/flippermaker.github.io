@@ -1,0 +1,4 @@
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/ACs/Lasko/Lasko 6462 Space Heater.ir
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/ACs/Lasko/Lasko_Fan.ir
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/ACs/Lasko/Lasko_Fan_Simple.ir
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/ACs/Lasko/Lasko_Heater.ir

@@ -1,0 +1,3 @@
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/Projectors/BrandUnknown/LED Smart Home Theater Projector.ir
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/Projectors/BrandUnknown/Scrn_innov.ir
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/Projectors/BrandUnknown/Stlth_acou.ir

@@ -1,0 +1,3 @@
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/TVs/TCL/TCL_32S327.ir
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/TVs/TCL/TCL_UnknownModel1.ir
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/TVs/TCL/TCL_UnknownModel2.ir

@@ -1,0 +1,4 @@
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/Streaming Devices/Roku/Jet_AFS-1000b.ir
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/Streaming Devices/Roku/Roku.ir
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/Streaming Devices/Roku/Roku2.ir
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/Streaming Devices/Roku/Roku_Alternate.ir

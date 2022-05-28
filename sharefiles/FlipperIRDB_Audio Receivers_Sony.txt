@@ -1,0 +1,2 @@
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/Audio Receivers/Sony/Sony_Amp.ir
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/Audio Receivers/Sony/Sony_MHC-GS300AV.ir

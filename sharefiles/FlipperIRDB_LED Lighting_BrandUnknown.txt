@@ -1,0 +1,8 @@
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/LED Lighting/BrandUnknown/44_Button_LED.ir
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/LED Lighting/BrandUnknown/Color_Change_Bulb_Remote.ir
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/LED Lighting/BrandUnknown/DMX_Light.ir
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/LED Lighting/BrandUnknown/LEDStrip.ir
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/LED Lighting/BrandUnknown/LED_44Key.ir
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/LED Lighting/BrandUnknown/Light_Strip.ir
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/LED Lighting/BrandUnknown/Magic_Lighting_Remote.ir
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/LED Lighting/BrandUnknown/Practical_Series_2.ir

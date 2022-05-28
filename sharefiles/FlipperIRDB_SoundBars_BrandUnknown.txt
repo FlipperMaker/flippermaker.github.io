@@ -1,0 +1,2 @@
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/SoundBars/BrandUnknown/Amz_snd_bar.ir
+https:/raw.githubusercontent.com/logickworkshop/Flipper-IRDB/main/SoundBars/BrandUnknown/Soundblasterx.ir
