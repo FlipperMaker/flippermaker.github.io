@@ -1,1 +1,0 @@
-https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/NFC/mf_classic_dict/mf_classic_dict.nfc

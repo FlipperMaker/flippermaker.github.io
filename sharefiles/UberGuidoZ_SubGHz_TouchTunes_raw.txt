@@ -1,7 +1,0 @@
-https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/TouchTunes/raw/Down.sub
-https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/TouchTunes/raw/Left.sub
-https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/TouchTunes/raw/P2.sub
-https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/TouchTunes/raw/Pause.sub
-https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/TouchTunes/raw/Right.sub
-https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/TouchTunes/raw/Vdwn.sub
-https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/TouchTunes/raw/Vup.sub

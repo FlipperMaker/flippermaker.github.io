@@ -1,3 +1,0 @@
-https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Doorbells/Doorbell1.sub
-https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Doorbells/Doorbell2.sub
-https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Doorbells/DoorbellFM.sub
