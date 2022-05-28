@@ -1,7 +1,0 @@
-https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/BadUSB/CYE_Was_Here.txt
-https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/BadUSB/GoodUSB.txt
-https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/BadUSB/Hacker_Typer.txt
-https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/BadUSB/Show_Saved_Passwords.txt
-https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/BadUSB/Show_WiFi_Passwords.txt
-https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/BadUSB/The_Matrix_Wake_Up.txt
-https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/BadUSB/UBGZ_Was_Here.txt
