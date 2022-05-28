@@ -1,0 +1,2 @@
+https://raw.githubusercontent.com/wetox-team/flipperzero-goodies/master/intercom-keys/msk/keys/lfrfid/B2.rfid
+https://raw.githubusercontent.com/wetox-team/flipperzero-goodies/master/intercom-keys/msk/keys/lfrfid/M3.rfid

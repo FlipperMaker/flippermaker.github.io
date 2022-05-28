@@ -1,0 +1,2 @@
+https://raw.githubusercontent.com/wetox-team/flipperzero-goodies/master/intercom-keys/spb/keys/nfc/Admiralteiskaya.nfc
+https://raw.githubusercontent.com/wetox-team/flipperzero-goodies/master/intercom-keys/spb/keys/nfc/Petroga_domru.nfc
