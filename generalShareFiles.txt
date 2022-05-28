@@ -13,3 +13,7 @@
 #NOTES:#########################################
 #A line is only considered a comment if the first character is a '#'
 
+https://github.com/UberGuidoZ/Flipper/blob/main/BadUSB/Show_Saved_Passwords.txt
+https://github.com/UberGuidoZ/Flipper/blob/main/Infrared/tv.ir
+https://github.com/UberGuidoZ/Flipper/blob/main/Music_Player/Jeopardy.txt
+https://github.com/UberGuidoZ/Flipper/blob/main/NFC/Fun_Files/How_to_compile_DFU.nfc
