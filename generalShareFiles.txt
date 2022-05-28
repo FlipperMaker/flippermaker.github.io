@@ -15,5 +15,6 @@
 
 https://github.com/UberGuidoZ/Flipper/blob/main/Sub-GHz/Tesla_charge_AM650.sub
 https://github.com/UberGuidoZ/Flipper/blob/main/Sub-GHz/Tesla_charge_AM270.sub
-https://github.com/UberGuidoZ/Flipper/blob/main/BadUSB/Show_Saved_Passwords.txt
+https://github.com/UberGuidoZ/Flipper/blob/main/Sub-GHz/Handicap_button_1270.sub
+https://github.com/UberGuidoZ/Flipper/blob/main/Sub-GHz/Handicap_button_1650.sub
 https://github.com/UberGuidoZ/Flipper/blob/main/Infrared/tv.ir
