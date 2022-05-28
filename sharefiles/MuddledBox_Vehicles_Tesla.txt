@@ -1,0 +1,2 @@
+https:/raw.githubusercontent.com/MuddledBox/FlipperZeroSub-GHz/main/Vehicles/Tesla/Tesla_charge_door_AM270.sub
+https:/raw.githubusercontent.com/MuddledBox/FlipperZeroSub-GHz/main/Vehicles/Tesla/Tesla_charge_door_AM650.sub

@@ -1,0 +1,5 @@
+https:/raw.githubusercontent.com/MuddledBox/FlipperZeroSub-GHz/main/deBruijn/Binary/deBruijn300AllBit.sub
+https:/raw.githubusercontent.com/MuddledBox/FlipperZeroSub-GHz/main/deBruijn/Binary/deBruijn310AllBit.sub
+https:/raw.githubusercontent.com/MuddledBox/FlipperZeroSub-GHz/main/deBruijn/Binary/deBruijn315AllBit.sub
+https:/raw.githubusercontent.com/MuddledBox/FlipperZeroSub-GHz/main/deBruijn/Binary/deBruijn318AllBit.sub
+https:/raw.githubusercontent.com/MuddledBox/FlipperZeroSub-GHz/main/deBruijn/Binary/deBruijn390AllBit.sub
