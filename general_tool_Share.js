@@ -24,7 +24,7 @@ class generaltoolShare{
 					<select id="filetypeFormToolShare" class="form-select" aria-label="Default select">
 					  <option value="" selected>Select File Type</option>
 					</select>
-					<div id="filetypeHelpToolShare" class="form-text"></div>
+					<div id="filetypeHelpToolShare" class="form-text">Automatically selected when loading from GitHub</div>
 				  </div>
 				  <center><strong>-OR-</strong></center>
 				  <div class="mb-3">
@@ -428,7 +428,7 @@ RAW_Data: -754 361 -17246 131 -8734 65 -71908...
 		var returnUrlCheck = "https://dev.flpr.app/s#path="+filePath+"%2F"+this.getFormFileName(true)+"."+this.getFormFiletype(true);
 		var returnUrl = "https://dev.flpr.app/s#path="+filePath+"%2F"+this.getFormFileName(true)+"."+this.getFormFiletype(true);
 		var returnUrlParams = '';
-		fc.forEach( i => { //['!sub', '!txt', '!ibtn', '!ir', '!rfid', 'fmf', '!nfc', 'u2f'];
+		fc.forEach( i => { 
 			if(this.getFormFiletype(true) == 'sub'){ 
 				if(!i.includes(':')){badUrl = true;} 
 				var fcline = i.replaceAll("\r","").split(':');
