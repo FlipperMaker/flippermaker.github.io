@@ -13,11 +13,7 @@
 #NOTES:#########################################
 #A line is only considered a comment if the first character is a '#'
 
+https://github.com/UberGuidoZ/Flipper/blob/main/Sub-GHz/Tesla_charge_AM650.sub
+https://github.com/UberGuidoZ/Flipper/blob/main/Sub-GHz/Tesla_charge_AM270.sub
 https://github.com/UberGuidoZ/Flipper/blob/main/BadUSB/Show_Saved_Passwords.txt
 https://github.com/UberGuidoZ/Flipper/blob/main/Infrared/tv.ir
-https://github.com/UberGuidoZ/Flipper/blob/main/Music_Player/Jeopardy.txt
-https://github.com/UberGuidoZ/Flipper/blob/main/NFC/Fun_Files/How_to_compile_DFU.nfc
-https://github.com/flipperdevices/flipperzero-sd-card-examples/blob/dev/ibutton/Dallas.ibtn
-https://github.com/flipperdevices/flipperzero-sd-card-examples/blob/dev/lfrfid/Hid_prox.rfid
-https://github.com/flipperdevices/flipperzero-sd-card-examples/blob/dev/music_player/Marble_Machine.fmf
-https://github.com/flipperdevices/flipperzero-sd-card-examples/blob/dev/u2f/key.u2f

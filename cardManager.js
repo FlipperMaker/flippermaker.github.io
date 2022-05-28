@@ -2,6 +2,7 @@ class cardManager{
 	constructor() {
 		this.subghzCards = [];
 		this.subghzToolCards = [];
+		this.generalToolCards = [];
 		this.rfidCards = [];
 		this.irCards = [];
 		this.unknownCards = [];
@@ -20,6 +21,9 @@ class cardManager{
 			case 'ir':
 				this.irCards.push(cardObject);
 				break;
+			case 'generaltool':
+				this.generalToolCards.push(cardObject);
+				break;
 			default:
 				this.unknownCards.push(cardObject);
 				return;
@@ -35,6 +39,8 @@ class cardManager{
 				return this.rfidCards;
 			case 'ir':
 				return this.irCards;
+			case 'generaltool':
+				return this.generalToolCards;
 			default:
 				console.log('Unable to get cards by type. Bad type.');
 				return [];
@@ -45,6 +51,9 @@ class cardManager{
 	}
 	addSubghztoolCard(cardObject){
 		this.addCard('subghztool', cardObject);
+	}
+	addGeneraltoolCard(cardObject){
+		this.addCard('generaltool', cardObject);
 	}
 	addRfidCard(cardObject){
 		this.addCard('rfid', cardObject);
@@ -61,6 +70,7 @@ class cardManager{
 		this.irCards.forEach(c => {ret = ret + this.genShowAllCardsRow(c); });
 		this.subghzCards.forEach(c => {ret = ret + this.genShowAllCardsRow(c); });
 		this.rfidCards.forEach(c => {ret = ret + this.genShowAllCardsRow(c); });
+		this.generalToolCards.forEach(c => {ret = ret + this.genShowAllCardsRow(c); });
 		this.subghzToolCards.forEach(c => {ret = ret + this.genShowAllCardsRow(c); });
 		//c => {}
 		ret = ret + '</div>';
@@ -82,6 +92,7 @@ class cardManager{
 	renderCards(){
 		this.irCards.forEach(c => {c.renderCard();});
 		this.subghzCards.forEach(c => {c.renderCard();});
+		this.generalToolCards.forEach(c => {c.renderCard();});
 		this.subghzToolCards.forEach(c => {c.renderCard();});
 		this.rfidCards.forEach(c => {c.renderCard();});
 		

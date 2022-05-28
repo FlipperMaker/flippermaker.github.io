@@ -86,6 +86,13 @@ function dictionaryKeySearch(inputDictionary, inputSearchWord){
 	}
 	return ret;
 }
+function dictionaryToArray(inputDictionary){
+	var ret = [];
+	for (let i in inputDictionary) {
+		ret.push([i, inputDictionary[i]]);		
+	}
+	return ret;
+}
 
 
 

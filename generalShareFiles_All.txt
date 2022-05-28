@@ -15,3 +15,8 @@
 
 https://github.com/UberGuidoZ/Flipper/blob/main/Sub-GHz/Tesla_charge_AM650.sub
 https://github.com/UberGuidoZ/Flipper/blob/main/Sub-GHz/Tesla_charge_AM270.sub
+Doorbell1~UberGuidoZ~https://github.com/UberGuidoZ/Flipper/blob/main/Sub-GHz/Doorbells/Doorbell1.sub
+Doorbell2.sub~https://github.com/UberGuidoZ/Flipper/blob/main/Sub-GHz/Doorbells/Doorbell2.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Doorbells/DoorbellFM.sub
+https://github.com/UberGuidoZ/Flipper/blob/main/Sub-GHz/Handicap_button_1270.sub
+https://github.com/UberGuidoZ/Flipper/blob/main/Sub-GHz/Handicap_button_1650.sub
