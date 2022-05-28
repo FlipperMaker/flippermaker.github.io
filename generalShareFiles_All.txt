@@ -13,3 +13,5 @@
 #NOTES:#########################################
 #A line is only considered a comment if the first character is a '#'
 
+https://github.com/UberGuidoZ/Flipper/blob/main/Sub-GHz/Tesla_charge_AM650.sub
+https://github.com/UberGuidoZ/Flipper/blob/main/Sub-GHz/Tesla_charge_AM270.sub
