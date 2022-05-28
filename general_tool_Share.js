@@ -12,7 +12,7 @@ class generaltoolShare{
 				  <div class="mb-3">
 					<label for="nameFormToolShare" class="form-label">File Name</label>
 					<input type="text" class="form-control" id="nameFormToolShare">
-					<div id="nameHelpToolShare" class="form-text">Do not include ".sub" It will be added automatically. A blank name will automatically be named "NoName" for "File Contents" or as the file name from github.</div>
+					<div id="nameHelpToolShare" class="form-text">Do not include the file extension. It will be added automatically based on the file extension selected below. A blank name will automatically be named "NoName" for "File Contents" or as the file name from github.</div>
 				  </div>
 				  <div class="mb-3">
 					<label for="filecontentFormToolShare" class="form-label">Sub File Contents</label>
@@ -37,7 +37,7 @@ class generaltoolShare{
 					<label for="githubrepofileFormToolShare" class="form-label">GitHub Repo File</label>
 					<select id="githubrepofileFormToolShare" class="form-select" aria-label="Default select">
 					</select>
-					<div id="githubrepofileHelpToolShare" class="form-text"></div>
+					<div id="githubrepofileHelpToolShare" class="form-text">List your files here! Send me a message on GitHub, Telegram, Discord, or make a pull request on GitHub.</div>
 				  </div>
 				  <div class="d-grid gap-2 d-md-flex justify-content-md-end">
 					<button id="loadgithubrepofileFormToolShare" type="button" class="btn btn-success btn-sm">Load GitHub File</button>
