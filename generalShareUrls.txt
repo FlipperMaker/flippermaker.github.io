@@ -12,5 +12,7 @@
 #A line is only considered a comment if the first character is a '#'
 
 Flipper Maker Favorites~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/generalShareFiles.txt
-Flipper Maker All~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/generalShareFiles_All.txt
-Flipper Maker SubGHz~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/generalShareFiles_SubGHz.txt
+UberGuidoZ-SubGHz~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_subghz.txt
+UberGuidoZ-Bad USB~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_badusb.txt
+UberGuidoZ-IR~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_ir.txt
+UberGuidoZ-NFC~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_nfc.txt
