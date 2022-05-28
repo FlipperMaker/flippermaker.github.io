@@ -1,4 +1,3 @@
-//https://github.com/travisgoodspeed/goodwatch/blob/e4da908f0d872edcfc6c9f4ef529755184933ea2/firmware/apps/jukebox.c
 class generaltoolShare{
 	constructor() {
 		this.cardSpanName = 'cardtoolShare';
