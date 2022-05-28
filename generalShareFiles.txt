@@ -3,12 +3,15 @@
 #OR... Manage your own list on your github by adding your repo url to the file generalShareUrls.txt via a pull request
 #Formats:#######################################
 #[File Name]~[Author]~[Url]
+#Example: tv~UberGuidoZ~https://github.com/UberGuidoZ/Flipper/blob/main/Infrared/tv.ir
 #
 #[File Name]~[Url]
 ###The [Author] field will be grabbed automatically from the github url
+#Example: tv~https://github.com/UberGuidoZ/Flipper/blob/main/Infrared/tv.ir
 #
 #[Url]
 ###The [File Name] and [Author] field will be grabbed automatically from the github url
+#Example: https://github.com/UberGuidoZ/Flipper/blob/main/Infrared/tv.ir
 #
 #NOTES:#########################################
 #A line is only considered a comment if the first character is a '#'
