@@ -84,14 +84,14 @@ function renderGenericTopBar(){
 		<h1>Flipper Maker</h1>
 		<h4>Generate Flipper Files!</h4>
 		<div>On your phone: When you download the files the Flipper Zero app will automatically open and download the file to your Flipper Zero
-		<div class="d-inline d-none d-md-block">On your PC option 1: Download the generated file, then use qFlipper to download the file to your Flipper Zero.<br />
+		<div class="d-inline d-none d-lg-block">On your PC option 1: Download the generated file, then use qFlipper to download the file to your Flipper Zero.<br />
 		On your PC option 2: Download the generated file, then copy the file to the correct directory on your Flipper Zero's SD Card.</div></div>`;
 		document.getElementById('topBar').innerHTML = topBarCode;
 }
 function renderGenericFooterBar(){
 	var footerBarCode = `
     <div class="container">
-      <span class="text-muted">V0.1.2</span>
+      <span class="text-muted">V0.1.2-1</span>
     </div>`;
 		document.getElementById('footerBar').innerHTML = footerBarCode;
 }
