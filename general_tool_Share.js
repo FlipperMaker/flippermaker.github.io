@@ -171,10 +171,10 @@ RAW_Data: -754 361 -17246 131 -8734 65 -71908...
 						var fileType = fileLineUrl.trim().slice(fileLineUrl.lastIndexOf('.')+1,fileLineUrl.length).toLowerCase();
 						//console.log(fileLineName+'^'+fileLineAuthor+'^'+fileType+'^'+fileLineUrl);
 					}
-					
+					var hash = '%23';
 					var opt = document.createElement('option');
 					opt.value = fileLineUrl;
-					opt.innerHTML = fileLineName;
+					opt.innerHTML = fileLineName.replace(hash, '#');
 					document.getElementById("generateToolShare").elements["githubrepofileFormToolShare"].appendChild(opt);
 				});
 			});
@@ -419,6 +419,7 @@ RAW_Data: -754 361 -17246 131 -8734 65 -71908...
 		var badUrl = false;
 		var CR = '%0D';
 		var LF = '%0A';
+		CR = '%0A';
 		var hash = '%23';
 		var fc = this.getFormFileContent(true).trim();
 		var filePath = this.filePaths[this.getFormFiletype(true)];
@@ -523,7 +524,7 @@ RAW_Data: -754 361 -17246 131 -8734 65 -71908...
 			}
 		});
 		//if(returnUrlParams.slice(0,3) == CR){returnUrlParams = returnUrlParams.slice(3,returnUrlParams.length);}
-		if(returnUrlParams.length > 1){returnUrl = returnUrl+'&'+returnUrlParams;}
+		if(returnUrlParams.length > 1){returnUrl = returnUrl+'&'+returnUrlParams + LF;}
 		if(badUrl == true){return "";}
 		if(returnUrlCheck == returnUrl){return "";}
 		return returnUrl;
