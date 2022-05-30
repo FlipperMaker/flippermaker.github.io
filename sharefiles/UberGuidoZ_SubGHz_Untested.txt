@@ -1,10 +1,12 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/Crosswalk_Unknown.sub
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/Generic_Ceiling_Fan_Remote.sub
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/Liftmaster_Parking_Gate_1.sub
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/Liftmaster_Parking_Gate_2.sub
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/Liftmaster_Parking_Gate_3.sub
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/Liftmaster_Parking_Gate_4.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/Mink Aire code set 0_Fan High.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/Mink Aire code set 0_Fan_Off.sub
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/Tesla_Captured.sub
-https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/Unknown_Crosswalk.sub
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/came.sub
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/came_twee.sub
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/doorhan.sub
