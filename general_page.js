@@ -1,3 +1,4 @@
+var FLIPPERMAKER_VERSION = '5_30_2022_1552';
 function loadScript(url, callback) {
 	var head = document.getElementsByTagName('head')[0];
 	var script = document.createElement('script');
@@ -91,9 +92,10 @@ function renderGenericTopBar(){
 function renderGenericFooterBar(){
 	var footerBarCode = `
     <div class="container">
-      <span class="text-muted">V0.1.2-1</span>
+      <span class="text-muted" id="flippermaker_version">Flipper Maker</span>
     </div>`;
 		document.getElementById('footerBar').innerHTML = footerBarCode;
+		document.getElementById('flippermaker_version').innerHTML = "Version: " + FLIPPERMAKER_VERSION;
 }
 
 function renderGenericModalBar(){
