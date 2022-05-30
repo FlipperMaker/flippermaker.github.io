@@ -6,6 +6,9 @@ class cardManager{
 		this.rfidCards = [];
 		this.irCards = [];
 		this.unknownCards = [];
+		//this.cardRowCode = `<div class="row" data-masonry= '{"percentPosition": true }'>`;
+		this.cardRowCode = `<div class="row" >`;
+		//this.cardRowCode = `<div class="row" data-masonry= '{"percentPosition": true, "itemSelector": ".row" }'>`;
 	}
 	addCard(cardType, cardObject){
 		switch(cardType) {
@@ -65,8 +68,34 @@ class cardManager{
 		//console.log('<div id="'+cardObj.cardSpanName+'" class="col-sm-4"></div>');
 		return '<div id="'+cardObj.cardSpanName+'" class="col-sm-4"></div>';
 	}
-	showAllCards(targetID){ //NOTE: Render order for index///////////////////////////////////////////////////////////////////////////////
-		var ret = '<div class="row">';
+ 	showAllCards(targetID){ //NOTE: Render order for index///////////////////////////////////////////////////////////////////////////////
+		var ret = '';
+		var rows = [];
+		var cntr = 0;
+		this.irCards.forEach(c => {rows.push(this.genShowAllCardsRow(c)); });
+		this.subghzCards.forEach(c => {rows.push(this.genShowAllCardsRow(c)); });
+		this.rfidCards.forEach(c => {rows.push(this.genShowAllCardsRow(c)); });
+		this.generalToolCards.forEach(c => {rows.push(this.genShowAllCardsRow(c)); });
+		this.subghzToolCards.forEach(c => {rows.push(this.genShowAllCardsRow(c)); });
+		rows.forEach(c => {
+			if(cntr == 0){ret = ret + this.cardRowCode;}
+			ret = ret + c;
+			if(cntr == 2){
+				cntr = 0;
+				ret = ret + '</div>';
+			}else{
+				cntr += 1;
+			}
+			
+		});
+		if(ret.slice(ret.length-6, ret.length) == '</div>'){ret = ret + '</div>';}
+		//c => {}
+		
+		document.getElementById(targetID).innerHTML = ret;
+		this.renderCards();
+	} 
+	showAllCards2(targetID){ //NOTE: Render order for index///////////////////////////////////////////////////////////////////////////////
+		var ret = this.cardRowCode;
 		this.irCards.forEach(c => {ret = ret + this.genShowAllCardsRow(c); });
 		this.subghzCards.forEach(c => {ret = ret + this.genShowAllCardsRow(c); });
 		this.rfidCards.forEach(c => {ret = ret + this.genShowAllCardsRow(c); });
@@ -76,10 +105,11 @@ class cardManager{
 		ret = ret + '</div>';
 		document.getElementById(targetID).innerHTML = ret;
 		this.renderCards();
+		postMessage('MYMessage', location.origin);
 	}
 	showAllCardsOfType(targetID, cardType){
 		var tempCards = this.getCardsByType(cardType)
-		var ret = '<div class="row">';
+		var ret = this.cardRowCode;
 		tempCards.forEach(c => {ret = ret + this.genShowAllCardsRow(c); });
 		ret = ret + '</div>';
 		document.getElementById(targetID).innerHTML = ret;
