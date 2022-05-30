@@ -91,7 +91,7 @@ function renderGenericTopBar(){
 function renderGenericFooterBar(){
 	var footerBarCode = `
     <div class="container">
-      <span class="text-muted">V0.1.1 https://github.com/FlipperMaker/flippermaker.github.io</span>
+      <span class="text-muted">V0.1.1</span>
     </div>`;
 		document.getElementById('footerBar').innerHTML = footerBarCode;
 }
