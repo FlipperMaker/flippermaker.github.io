@@ -66,9 +66,9 @@ class cardManager{
 	}
 	genShowAllCardsRow(cardObj){
 		//console.log('<div id="'+cardObj.cardSpanName+'" class="col-sm-4"></div>');
-		return '<div id="'+cardObj.cardSpanName+'" class="col-sm-4"></div>';
+		return '<div id="'+cardObj.cardSpanName+'" class="col col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4" col-xxl-2"></div>';
 	}
- 	showAllCards(targetID){ //NOTE: Render order for index///////////////////////////////////////////////////////////////////////////////
+/*  	showAllCards2(targetID){ //NOTE: Render order for index///////////////////////////////////////////////////////////////////////////////
 		var ret = '';
 		var rows = [];
 		var cntr = 0;
@@ -93,8 +93,8 @@ class cardManager{
 		
 		document.getElementById(targetID).innerHTML = ret;
 		this.renderCards();
-	} 
-	showAllCards2(targetID){ //NOTE: Render order for index///////////////////////////////////////////////////////////////////////////////
+	} */ 
+	showAllCards(targetID){ //NOTE: Render order for index///////////////////////////////////////////////////////////////////////////////
 		var ret = this.cardRowCode;
 		this.irCards.forEach(c => {ret = ret + this.genShowAllCardsRow(c); });
 		this.subghzCards.forEach(c => {ret = ret + this.genShowAllCardsRow(c); });
@@ -105,7 +105,6 @@ class cardManager{
 		ret = ret + '</div>';
 		document.getElementById(targetID).innerHTML = ret;
 		this.renderCards();
-		postMessage('MYMessage', location.origin);
 	}
 	showAllCardsOfType(targetID, cardType){
 		var tempCards = this.getCardsByType(cardType)

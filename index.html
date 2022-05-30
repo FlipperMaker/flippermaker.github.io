@@ -15,7 +15,7 @@
   <nav id="navBar" class="navbar sticky-top navbar-expand-lg navbar-light bg-light" style="background-color: #ff8e2b!important;"></nav>
   <div id="topBar" class="container-fluid p-2 bg-primary text-white text-center" style="background-color: #fd7e14!important;"></div>
 
-  <div id="cardsAll" class="container mt-5">
+  <div id="cardsAll" class="container-fluid mt-5">
 
   </div>
   <br />
@@ -26,6 +26,7 @@
 <script src="general_page.js"></script>
 <script src="index.js"></script>
 <script>
+/*
 function asyncHandler(type) {
     var time = Date.now() - _time;
     console.log(type + ': ' + time + ' ms');
@@ -36,7 +37,12 @@ addEventListener('message', function(e) {
     }
 	console.log(e.data);
 });
-	/*document.addEventListener('readystatechange', event => { 
+var element =  document.getElementById('elementId');
+if (typeof(element) != 'undefined' && element != null)
+{
+  // Exists.
+}
+	document.addEventListener('readystatechange', event => { 
 		// When window loaded ( external resources are loaded too- `css`,`src`, etc...) 
 		if (event.target.readyState === "complete") {
 			console.log('Page Loaded');

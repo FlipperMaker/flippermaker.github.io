@@ -5,7 +5,7 @@ class subghzTouchTunes{
 		this.cardCode = `
 			<div class="card mb-3">
 			  <div class="card-header text-center">
-				<h5 class="card-title">TouchTunes</h5>
+				<h5 class="card-title">TouchTunes (SubGHz)</h5>
 			  </div>
 			  <div class="card-body">
 				<form id="generateTouchTunes">

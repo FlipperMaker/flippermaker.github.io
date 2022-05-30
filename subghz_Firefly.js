@@ -4,7 +4,7 @@ class subghzFirefly{
 		this.cardCode = `
 		<div class="card mb-3">
 		  <div class="card-header text-center">
-			<h5 class="card-title">Firefly</h5>
+			<h5 class="card-title">Firefly (SubGHz)</h5>
 		  </div>
 
 		  <div class="card-body">
