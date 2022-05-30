@@ -36,3 +36,4 @@ MuddledBox-Vehicles_Tesla~https://github.com/FlipperMaker/flippermaker.github.io
 MuddledBox-deBruijn_Binary~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/MuddledBox_deBruijn_Binary.txt
 MuddledBox-deBruijn_North Shore Commercial Doors~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/MuddledBox_deBruijn_North Shore Commercial Doors.txt
 
+
