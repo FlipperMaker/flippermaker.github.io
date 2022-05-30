@@ -524,10 +524,10 @@ RAW_Data: -754 361 -17246 131 -8734 65 -71908...
 			}
 		});
 		//if(returnUrlParams.slice(0,3) == CR){returnUrlParams = returnUrlParams.slice(3,returnUrlParams.length);}
-		if(returnUrlParams.length > 1){returnUrl = returnUrl+'&'+returnUrlParams + LF;}
+		if(returnUrlParams.length > 1){returnUrl = returnUrl+'&'+returnUrlParams;}
 		if(badUrl == true){return "";}
 		if(returnUrlCheck == returnUrl){return "";}
-		return returnUrl;
+		return returnUrl + LF;
 	}
 
 	
