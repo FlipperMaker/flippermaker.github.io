@@ -1,3 +1,8 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/433_Tesla_AM270.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/433_Tesla_AM650.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/433_Tesla_Captured.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/433b_Tesla_Captured.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/BruteForceRest.sub
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/Crosswalk_Unknown.sub
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/Generic_Ceiling_Fan_Remote.sub
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/Liftmaster_Parking_Gate_1.sub

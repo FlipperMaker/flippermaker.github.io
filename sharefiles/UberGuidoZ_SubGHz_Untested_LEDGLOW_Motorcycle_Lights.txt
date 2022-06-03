@@ -1,0 +1,5 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/LEDGLOW_Motorcycle_Lights/Fade.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/LEDGLOW_Motorcycle_Lights/Flash.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/LEDGLOW_Motorcycle_Lights/Off.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/LEDGLOW_Motorcycle_Lights/On.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/LEDGLOW_Motorcycle_Lights/Strobe.sub
