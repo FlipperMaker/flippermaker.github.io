@@ -24,6 +24,11 @@ Community updates/pull requests are encouraged!
 ## Tools:
 * Flipper File Sharing and on-the-go install
 * OOK to .sub
+
+## Future:
+* Ability to generate settings files
+
+
 <br /><br />
 ## Thank you...
 * [`Flipper-IRDB by logickworkshop` for hosting the IR files](https://github.com/logickworkshop/Flipper-IRDB)
