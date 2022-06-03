@@ -27,9 +27,9 @@ Community updates/pull requests are encouraged!
 
 ## Future:
 * Ability to generate settings files [`Notes 1`](https://github.com/UberGuidoZ/Flipper/tree/main/Sub-GHz/ext) [`Notes 2`](https://github.com/Eng1n33r/flipperzero-firmware/blob/dev/documentation/UniRFRemix.md)
-  * Official 300-348 MHz, 387-464 MHz, 779-928 MHz
-  * Unofficially 281-361 MHz, 378-481 MHz, 749-962 MHz
-  * Medical Devices in range: 402-408 MHz
+  * Official: 300-348 MHz, 387-464 MHz, 779-928 MHz
+  * Unofficial: 281-361 MHz, 378-481 MHz, 749-962 MHz
+  * Medical Devices: 402-408 MHz
 
 
 <br /><br />
