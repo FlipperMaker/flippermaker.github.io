@@ -1,4 +1,4 @@
-var FLIPPERMAKER_VERSION = '5_30_2022_1552';
+var FLIPPERMAKER_VERSION = '5_13_30_2022_1';
 function loadScript(url, callback) {
 	var head = document.getElementsByTagName('head')[0];
 	var script = document.createElement('script');

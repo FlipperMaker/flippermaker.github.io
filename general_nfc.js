@@ -1,6 +1,7 @@
 /*
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays
-
+https://github.com/adafruit/Adafruit-PN532/blob/c36758a4ab506e58194930118d2f3f681b315016/Adafruit_PN532.cpp
+https://github.com/adafruit/Adafruit-PN532/blob/master/examples/ntag2xx_updatendef/ntag2xx_updatendef.ino
 
 
 */
