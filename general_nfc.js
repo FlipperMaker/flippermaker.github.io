@@ -1,17 +1,12 @@
-/*
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Typed_arrays
-https://github.com/adafruit/Adafruit-PN532/blob/c36758a4ab506e58194930118d2f3f681b315016/Adafruit_PN532.cpp
-https://github.com/adafruit/Adafruit-PN532/blob/master/examples/ntag2xx_updatendef/ntag2xx_updatendef.ino
-
-
-*/
 class nfcGeneral{
-	constructor() {
-		
+	constructor(tagType) {
+		this.nfc = new nfcNTAG(tagType);
+		this.errorFlag = false;
 	}
+	checkErrorFlagOK = () => this.errorFlag == false && this.nfc.errorFlag == false;
 	generate_tag_url(filename, url){
-		var nfc = new nfcNTAG();
-		var generatedNFC = nfc.generate_TAG_URL(url);
+		
+		var generatedNFC = this.nfc.generate_TAG_URL(url);
 		if (generatedNFC === false) return false;
 		var badUrl = false;
 		var CR = '%0D';
@@ -40,10 +35,13 @@ class nfcGeneral{
 class nfcHelper{
 	constructor() {
 		this.exceptionOnError = true;
+		this.errorFlag = false;
 	}
 	error = (funcName, msg) => console.log('nfcHelper-Error-'+funcName+'-'+msg);
+	checkErrorFlagOK = () => this.errorFlag == false;
 	throwException(msg, ret = false){
         if (this.exceptionOnError) console.log(msg);
+		this.errorFlag = !ret;
         return ret;
 	}
 	upper = (val) => (val && typeof val === 'string' ? val.toUpperCase().trim() : this.error('upper', typeof val));
@@ -113,9 +111,12 @@ class nfcNTAG{
         this.nfcDeviceType = this.validDeviceType(nfcDeviceType);
         this.nfcPages = this.helper.genPages(this.getNfcPageCount());
         this.nfcUID = '044FA8925D5A81'.replaceAll(' ','');
+		this.errorFlag = false;
 	}
+	checkErrorFlagOK = () => this.errorFlag == false && this.helper.errorFlag == false;
 	throwException(msg, ret = false){
         if (this.exceptionOnError) console.log(msg);
+		this.errorFlag = !ret;
         return ret;
 	}
 	getFlipperFileVersion = () => 2;
@@ -206,6 +207,9 @@ class nfcNTAG{
 	}
 	updatePagesHex(page, pageIndex, hexVal){
 		hexVal = parseInt(hexVal, 16);
+		var maxIndex = this.nfcPages.length*4;
+		var curIndex = (page*4) + pageIndex;
+		if (curIndex >=  maxIndex) return this.throwException('updatePagesHex-outside limits');
 		this.nfcPages[page][pageIndex] = this.helper.upper(hexVal.toString()).replace('0X','');
 	}
 	
@@ -225,9 +229,6 @@ class nfcNTAG{
 			var v = this.helper.intToPageAndIndex(i+offset);
 			this.updatePagesHex(v[0],v[1],x);
 		});
-        // for i, o in enumerate(cc):
-            // p, pi = self.intToPageAndIndex(i+offset)
-            // self.updatePagesHex(p,pi,o)
 	}
 	getNfcUid(opt = 2){
         if (this.nfcUID) return this.nfcUID;
@@ -375,11 +376,12 @@ class nfcNTAG{
         if (identifier) return identifier;
         return this.throwException('getUriIdentifier');
 	}
-	NDEF_URI_URL(uri, url, pageOffset = 4, indexOffset = 0){
-		if (url.length+5 >= this.getNfcMaxUrlLength) return false;
+	NDEF_URI_URLA(uri, url, pageOffset = 4, indexOffset = 0){
         var offset = (pageOffset*4)+indexOffset;
+		url = url.trim();
         uri = this.getUriIdentifier(uri.trim());
-        url = url.trim();
+		//console.log(url.length,url.length+5, this.getNfcMaxUrlLength(), '~'+url+'~');
+		if (url.length+5 >= this.getNfcMaxUrlLength()) return this.throwException('NDEF_URI_URL-error length');
         var ndef = [0x03, url.length+5,   //NDEF message, 15 byte message
                 0xD1,               //NDEF Record header: MB = 1b, ME = 1b, CF = 0b, SR = 1b, IL = 0b, TNF - 001b
                 0x01, url.length+1,   //type length, payload length
@@ -397,7 +399,58 @@ class nfcNTAG{
 			this.updatePagesHex(v[0],v[1],this.helper.upper(x));
 		});
 	}
+	NDEF_URI_URL(uri, url, pageOffset = 4, indexOffset = 0){
+		//this.NDEF_URI_URLA(uri, url, pageOffset = 4, indexOffset = 0);
+        if (url.length < 255) this.NDEF_URI_URL_SHORT(uri, url, pageOffset, indexOffset);
+		else this.NDEF_URI_URL_LONG(uri, url, pageOffset, indexOffset);
+	}
+	NDEF_URI_URL_LONG(uri, url, pageOffset = 4, indexOffset = 0){
+		var packetExtra = 8;
+        var offset = (pageOffset*4)+indexOffset;
+		url = url.trim();
+        uri = this.getUriIdentifier(uri.trim());
+		if (url.length+packetExtra >= this.getNfcMaxUrlLength()) return this.throwException('NDEF_URI_URL-error length');
+        var ndef = [0x03,   //NDEF message, 15 byte message
+					0xFF,                 //NDEF Record header: MB = 1b, ME = 1b, CF = 0b, SR = 1b, IL = 0b, TNF - 001b
+					((url.length+packetExtra) >>> 8) & 0x0FF,
+					(url.length+packetExtra) & 0x0FF,
+					0xC1,
+					0x01,0x00,0x00, ((url.length+1) >>> 8) & 0x0FF, (url.length+1) & 0x0FF,   //type length, payload length
+					0x55,                 //Type = URI
+					uri];                 //URI Indentifier = https:   
+					
+        ndef = this.helper.hexArrayToByteArray([...ndef]);
+		//ndef = [...ndef, ...this.helper.string_to_bytes(url)];
+        ndef = this.helper.byteArray_to_hexStr_Split_Array(ndef);
+		ndef = [...ndef, ...this.helper.string_to_bytes(url)];
+		ndef.push('FE');
+        ndef.forEach((x, i) => {
+			var v = this.helper.intToPageAndIndex(i+offset);
+			this.updatePagesHex(v[0],v[1],this.helper.upper(x));
+		});
+	}
+	NDEF_URI_URL_SHORT(uri, url, pageOffset = 4, indexOffset = 0){
+		var packetExtra = 5;
+        var offset = (pageOffset*4)+indexOffset;
+		url = url.trim();
+        uri = this.getUriIdentifier(uri.trim());
+		if (url.length+packetExtra >= this.getNfcMaxUrlLength()) return this.throwException('NDEF_URI_URL-error length');
+        var ndef = [0x03, url.length+packetExtra,   //NDEF message, 15 byte message
+					0xD1,               //NDEF Record header: MB = 1b, ME = 1b, CF = 0b, SR = 1b, IL = 0b, TNF - 001b
+					0x01, url.length+1,   //type length, payload length
+					0x55,               //Type = URI
+					uri];                //URI Indentifier = https:    
+        ndef = this.helper.hexArrayToByteArray([...ndef]);
+        ndef = this.helper.byteArray_to_hexStr_Split_Array(ndef);
+		ndef = [...ndef, ...this.helper.string_to_bytes(url)];
+		ndef.push('FE');	
+        ndef.forEach((x, i) => {
+			var v = this.helper.intToPageAndIndex(i+offset);
+			this.updatePagesHex(v[0],v[1],this.helper.upper(x));
+		});
+	}
 	generate_TAG_URL(url){
+		url = url.trim();
         var identifiers = ['http://www.', 'https://www.', 'http://', 'https://', 'tel:', 'mailto:', 'ftp://anonymous:anonymous@', 'ftp://ftp.', 'ftps://', 'sftp://', 'smb://', 'nfs://', 'ftp://', 'dav://', 'news:', 'telnet://', 'imap:', 'rtsp://', 'urn:', 'pop:', 'sip:', 'sips:', 'tftp:', 'btspp://', 'btl2cap://', 'btgoep://', 'tcpobex://', 'irdaobex://', 'file://', 'urn:epc:id:', 'urn:epc:tag:', 'urn:epc:pat:', 'urn:epc:raw:', 'urn:epc:', 'urn:nfc:'];
 		var identifier = null;
 		identifiers.forEach(x => {
@@ -413,13 +466,14 @@ class nfcNTAG{
 			// console.log(identifier);
 			// console.log(url);
 			this.generate();
-			if (this.NDEF_URI_URL(identifier, url) === false) return false;
+			if (this.NDEF_URI_URL(identifier, url) === false) return this.throwException('generate_TAG_URL-error NDEF_URI_URL');
 			var h = this.generateHeader();
 			var p = this.generatePages();
 			var ret = h+'\n'+p;
+			//console.log(ret);
 			return ret;
 		}
-		return false;
+		return this.throwException('generate_TAG_URL-error url or identifier');
 	}
 			
 	printPages=()=>this.nfcPages.forEach((x, i) => {
@@ -460,7 +514,7 @@ function testGeneralNfc() {
 	//a.printPages();
 	//console.log(a.generateHeader());
 	//console.log(a.generatePages());
-	a.generate_TAG_URL('https://youtube.com/watch?v=dQw4w9WgXcQ');
+	//a.generate_TAG_URL('https://youtube.com/watch?v=dQw4w9WgXcQ');
 }
 //var a = testGeneralNfc();
 //var b = testGeneralNfcHelper();

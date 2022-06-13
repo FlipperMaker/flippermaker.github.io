@@ -13,19 +13,25 @@ class nfctoolCreate{
 					<input type="text" class="form-control" id="nameFormNfcToolCreate">
 					<div id="nameHelpNfcToolCreate" class="form-text">Do not include the file extension. It will be added automatically. A blank name will automatically be named "NoName".</div>
 				  </div>
-				  
-				  
-				  
+				  <div class="mb-3">
+					<label for="tagtypeFormToolShare" class="form-label">Tag Type</label>
+					<select id="tagtypeFormToolShare" class="form-select" aria-label="Default select">
+					  <option value="NTAG213" selected>NTAG213</option>
+					  <option value="NTAG215">NTAG215</option>
+					  <option value="NTAG216">NTAG216</option>
+					</select>
+					<div id="tagtypeHelpToolShare" class="form-text"></div>
+				  </div>
 				  
 				  <div class="mb-3">
 					<label for="urlFormNfcToolCreate" class="form-label">URL</label>
 					<input type="text" class="form-control" id="urlFormNfcToolCreate" placeholder="https://youtu.be/...">
-					<div id="urlHelpNfcToolCreate" class="form-text"></div>
+					<div id="urlHelpNfcToolCreate" class="form-text">URI scheme required. (ex: "https://", "tel://", ...)<br />Max Lengths: NTAG213=126, NTAG215=483, NTAG216=845</div>
 				  </div>
 				  <div class="d-grid gap-2 d-md-flex justify-content-md-end">
 					<button id="exampleNfcToolCreate" type="button" class="btn btn-secondary btn-sm">Example Url</button>
 				  </div>
-				  <br /><br />
+				  <br />
 				  <button id="submitNfcToolCreate" type="submit" class="btn btn-primary">Generate</button>
 				  <button id="resetNfcToolCreate" type="reset" class="btn btn-primary">Reset</button>
 
@@ -42,14 +48,24 @@ class nfctoolCreate{
 	//File Name
 	getFormFileName(getValue = false){ return (getValue ? this.getForm().elements["nameFormNfcToolCreate"].value : this.getForm().elements["nameFormNfcToolCreate"]); }
 	getFormFileNameClean(){ return replaceSpace(this.getFormFileName(true), "_"); }
+	getFormFileName_Valid = () => true;
 	
 	//Url Direct Text Field
 	getFormUrlText(getValue = false){ return (getValue ? this.getForm().elements["urlFormNfcToolCreate"].value : this.getForm().elements["urlFormNfcToolCreate"]); }
 	getFormUrlTextClean(){ return this.getFormUrlText(true); }
+	getFormUrlText_Valid = () => this.getFormUrlTextClean().length > 1;
 	
 	//Url Direct Text Example Button
 	buttonFormExample(getValue = false){ return this.getForm().elements["exampleNfcToolCreate"]; }
+	
+	//Tag Type Select Field
+	getFormTagTypeSelect(getValue = false){ return (getValue ? this.getForm().elements["tagtypeFormToolShare"].value : this.getForm().elements["tagtypeFormToolShare"]); }
+	getFormTagTypeSelectClean(){ return this.getFormTagTypeSelect(true).trim(); }
+	getFormTagTypeSelect_Valid = () => true;
 
+	validForm = () => {getFormFileName_Valid && getFormUrlText_Valid && getFormTagTypeSelect_Valid};
+	
+	
 	renderCard(){
 		document.getElementById(this.cardSpanName).innerHTML = this.cardCode;
 		this.buttonFormExample().addEventListener("click", (event) => {
@@ -74,9 +90,9 @@ class nfctoolCreate{
 	}
 	genDownloadButton() {
 		var shortName = this.getFormFileNameClean();
-		var nfc_general = new nfcGeneral();
+		var nfc_general = new nfcGeneral(this.getFormTagTypeSelectClean());
 		var url = nfc_general.generate_tag_url(this.getFormFileNameClean(), this.getFormUrlTextClean());
-		if(url){
+		if(url && nfc_general.checkErrorFlagOK()){
 			if (shortName.length > 10) { shortName = shortName.slice(0, 10) + ".."; }
 			var returnUrl = '<a href="'+url+'" class="btn btn-primary" target="_blank">Download ' + shortName + ".nfc"+"</a>";
 			return returnUrl;
