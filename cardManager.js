@@ -5,6 +5,7 @@ class cardManager{
 		this.generalToolCards = [];
 		this.rfidCards = [];
 		this.irCards = [];
+		this.nfcCards = [];
 		this.unknownCards = [];
 		//this.cardRowCode = `<div class="row" data-masonry= '{"percentPosition": true }'>`;
 		this.cardRowCode = `<div class="row" >`;
@@ -24,6 +25,9 @@ class cardManager{
 			case 'ir':
 				this.irCards.push(cardObject);
 				break;
+			case 'nfc':
+				this.nfcCards.push(cardObject);
+				break;
 			case 'generaltool':
 				this.generalToolCards.push(cardObject);
 				break;
@@ -42,6 +46,8 @@ class cardManager{
 				return this.rfidCards;
 			case 'ir':
 				return this.irCards;
+			case 'nfc':
+				return this.nfcCards;
 			case 'generaltool':
 				return this.generalToolCards;
 			default:
@@ -63,6 +69,9 @@ class cardManager{
 	}
 	addIrCard(cardObject){
 		this.addCard('ir', cardObject);
+	}
+	addNfcCard(cardObject){
+		this.addCard('nfc', cardObject);
 	}
 	genShowAllCardsRow(cardObj){
 		//console.log('<div id="'+cardObj.cardSpanName+'" class="col-sm-4"></div>');
@@ -99,6 +108,7 @@ class cardManager{
 		this.irCards.forEach(c => {ret = ret + this.genShowAllCardsRow(c); });
 		this.subghzCards.forEach(c => {ret = ret + this.genShowAllCardsRow(c); });
 		this.rfidCards.forEach(c => {ret = ret + this.genShowAllCardsRow(c); });
+		this.nfcCards.forEach(c => {ret = ret + this.genShowAllCardsRow(c); });
 		this.generalToolCards.forEach(c => {ret = ret + this.genShowAllCardsRow(c); });
 		this.subghzToolCards.forEach(c => {ret = ret + this.genShowAllCardsRow(c); });
 		//c => {}
@@ -124,6 +134,7 @@ class cardManager{
 		this.generalToolCards.forEach(c => {c.renderCard();});
 		this.subghzToolCards.forEach(c => {c.renderCard();});
 		this.rfidCards.forEach(c => {c.renderCard();});
+		this.nfcCards.forEach(c => {c.renderCard();});
 		
 	}
 	

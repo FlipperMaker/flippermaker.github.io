@@ -16,11 +16,13 @@ function performImports(){
 	'general_subghz.js',
 	'general_rfid.js',
 	'general_ir.js',
+	'general_nfc.js',
 	'subghz_Touchtunes.js',
 	'subghz_tool_OokToSub.js',
 	'general_tool_Share.js',
 	'subghz_Firefly.js',
 	'subghz_Megacode.js',
+	'nfc_tool_create.js',
 	'rfid_H10301.js',
 	'ir_device.js',
 	'cardManager.js'
@@ -39,6 +41,7 @@ function createCardManager(){
 	cardManagerInstance.addRfidCard(new rfidH10301());
 	cardManagerInstance.addSubghzCard(new subghzFirefly());
 	cardManagerInstance.addIrCard(new irGeneric());
+	cardManagerInstance.addNfcCard(new nfctoolCreate());
 }
 function renderBaseHtml(){
 	renderGenericTopBar();
