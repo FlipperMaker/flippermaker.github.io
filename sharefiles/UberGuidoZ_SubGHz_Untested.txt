@@ -12,6 +12,7 @@ https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/Liftm
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/Mink Aire code set 0_Fan High.sub
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/Mink Aire code set 0_Fan_Off.sub
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/Tesla_Captured.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/Van_left_blink.sub
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/came.sub
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/came_twee.sub
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/doorhan.sub
