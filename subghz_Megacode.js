@@ -108,7 +108,7 @@ class subghzMegaCode{
 		var kd2 = hexData.slice(2, 4);
 		var kd3 = hexData.slice(4, 6);
 		var returnUrl =
-			'<a href="https://dev.flpr.app/s/#path=subghz/' +
+			'<a href="'+getDownloadWebsitePrefix()+'#path=subghz/' +
 			keyName +
 			".sub&Filetype=Flipper+SubGhz+Key+File&Version=1&Frequency=318000000&Preset=FuriHalSubGhzPresetOok650Async&Protocol=MegaCode&Bit=24&Key=00+00+00+00+00+" +
 			kd1 +

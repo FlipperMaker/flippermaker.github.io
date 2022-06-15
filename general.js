@@ -1,3 +1,8 @@
+function getDownloadWebsitePrefix(internalUrl = false){
+	if (internalUrl) return "https://flippermaker.github.io/download.html";
+	return "https://dev.flpr.app/s";
+}
+
 function cleanString(inputString) {
   return inputString.toString().replaceAll(/\s/g, "");
 }

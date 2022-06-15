@@ -98,6 +98,10 @@
         background-color: #a5f4bf;
         background-image: url(https://cdn.flipperzero.one/sub_ghz_icon.svg);
       }
+      #badge.sub {
+        background-color: #a5f4bf;
+        background-image: url(https://cdn.flipperzero.one/sub_ghz_icon.svg);
+      }
       #badge.nfc {
         background-color: #98ceff;
         background-image: url(https://cdn.flipperzero.one/nfc_icon.svg);
@@ -163,14 +167,14 @@
     <div id="app-card">
       <div id="icon"></div>
       <div>
-        <div>
+        <div id="appLink">
           <h2>Flipper Maker</h2>
           Organize data and keys on your Flipper Device
         </div>
         <a id="get">Get the Flipper App</a>
       </div>
     </div>
-    <h1>Flipper Key</h1>
+    <h1 id="appDownload">Flipper Key Download</h1>
     <div id="key">
       <div id="badge"></div>
       <div id="name"></div>
@@ -181,6 +185,8 @@
     <a id="open"></a>
 
     <script>
+	
+	
       let os = 'other'
       const storelinks = {
         android: 'https://play.google.com/store/apps/details?id=com.flipperdevices.app',
@@ -280,6 +286,30 @@
           document.querySelector('#open').href = 'data:application/octet-stream;base64,' + btoa(fileString)
         }
       }
+	if(false){
+		updateColorBodyBG = (c) => document.body.style.backgroundColor = c;
+		updateColorBG = (c, el) => document.getElementById(el).style.backgroundColor = c;
+		updateColor = (c, el) => document.getElementById(el).style.color = c;
+		updateColorBGSel = (c, el) => document.querySelector(el).style.backgroundColor = c;
+		updateColorSel = (c, el) => document.querySelector(el).style.color = c;
+		updateShadow = (c, el) => document.querySelector(el).style.textShadow = c;
+	
+		var colorScheme = {
+			"retro": ['#F9F2ED', '#3AB0FF', '#FFB562', '#F87474', '#000000', '#000000'], 
+			"dark": ['#1B2430', '#51557E', '#816797', '#D6D5A8', '#000000', '#FFFFFF']
+		}
+		var colorTheme = 'retro';
+		updateColorBodyBG(colorScheme[colorTheme][0]);
+		updateColorBG(colorScheme[colorTheme][2], 'key');
+		updateColorBG(colorScheme[colorTheme][1], 'badge');
+		updateColorSel(colorScheme[colorTheme][4], '#type > span:first-of-type');
+		updateColorSel(colorScheme[colorTheme][5], '#appLink');
+		updateColorSel(colorScheme[colorTheme][5], '#appDownload');
+		//updateColorSel(colorScheme[colorTheme][4], '#open');
+		//updateColorBGSel(colorScheme[colorTheme][1], '#open');
+		updateShadow('2px 2px 4px #D6D5A8', '#appDownload');
+		//document.querySelector('#type > span:first-of-type').style.color = '#F87474';
+	}
     </script>
   </body>
 </html>

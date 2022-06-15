@@ -425,8 +425,8 @@ RAW_Data: -754 361 -17246 131 -8734 65 -71908...
 		var filePath = this.filePaths[this.getFormFiletype(true)];
 		if(fc.length == 0){ return '#'; }
 		fc = fc.split('\n');
-		var returnUrlCheck = "https://dev.flpr.app/s#path="+filePath+"%2F"+this.getFormFileName(true)+"."+this.getFormFiletype(true);
-		var returnUrl = "https://dev.flpr.app/s#path="+filePath+"%2F"+this.getFormFileName(true)+"."+this.getFormFiletype(true);
+		var returnUrlCheck = getDownloadWebsitePrefix()+"#path="+filePath+"%2F"+this.getFormFileName(true)+"."+this.getFormFiletype(true);
+		var returnUrl = getDownloadWebsitePrefix()+"#path="+filePath+"%2F"+this.getFormFileName(true)+"."+this.getFormFiletype(true);
 		var returnUrlParams = '';
 		fc.forEach( i => { 
 			if(this.getFormFiletype(true) == 'sub'){ 
