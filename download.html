@@ -164,10 +164,10 @@
       <div id="icon"></div>
       <div>
         <div>
-          <h2>Flipper</h2>
+          <h2>Flipper Maker</h2>
           Organize data and keys on your Flipper Device
         </div>
-        <a id="get">Get the App</a>
+        <a id="get">Get the Flipper App</a>
       </div>
     </div>
     <h1>Flipper Key</h1>
@@ -231,6 +231,10 @@
             badgeText = 'Sub-GHz'
             typeText = 'Protocol:'
             break
+          case 'sub':
+            badgeText = 'Sub-GHz'
+            typeText = 'Protocol:'
+            break
           case 'nfc':
             badgeText = 'NFC'
             typeText = 'Device Type:'
@@ -243,7 +247,7 @@
             badgeText = 'Unknown'
             document.querySelector('#type').style.display = 'none'
         }
-
+		console.log(params);
         document.querySelector('#badge').classList.add(params.extension)
         document.querySelector('#badge').innerText = badgeText
         document.querySelector('#name').innerText = params.name
@@ -272,7 +276,8 @@
         } else {
           document.querySelector('#open').innerText = 'Download'
           document.querySelector('#open').download = params.name + '.' + params.extension
-          document.querySelector('#open').href = 'data:text/plain,' + fileString
+          //document.querySelector('#open').href = 'data:text/plain,' + fileString
+          document.querySelector('#open').href = 'data:application/octet-stream;base64,' + btoa(fileString)
         }
       }
     </script>
