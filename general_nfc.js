@@ -29,7 +29,7 @@ class nfcGeneral{
 		});
 		if(badUrl){return "";}
 		if(returnUrlCheck == returnUrl){return "";}
-		return returnUrl + LF;
+		return returnUrl;// + LF;
 	}
 }
 class nfcHelper{
