@@ -36,4 +36,4 @@ WetoxTeam-intercom_keys_spb_keys_lfrfid~https://github.com/FlipperMaker/flipperm
 WetoxTeam-intercom_keys_spb_keys_nfc~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/WetoxTeam_intercom_keys_spb_keys_nfc.txt
 MuddledBox-Vehicles_Tesla~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/MuddledBox_Vehicles_Tesla.txt
 MuddledBox-deBruijn_Binary~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/MuddledBox_deBruijn_Binary.txt
-MuddledBox-deBruijn_North Shore Commercial Doors~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/MuddledBox_deBruijn_North Shore Commercial Doors.txt 
+MuddledBox-deBruijn_North Shore Commercial Doors~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/MuddledBox_deBruijn_North Shore Commercial Doors.txt
