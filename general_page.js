@@ -19,7 +19,7 @@ function performImports(){
 	'general_rfid.js',
 	'general_ir.js',
 	'general_nfc.js',
-	'info_general.js',
+	'info_General.js',
 	'subghz_Touchtunes.js',
 	'subghz_tool_OokToSub.js',
 	'general_tool_Share.js',

@@ -2,6 +2,9 @@ class infoGeneral{
 	constructor() {
 		this.cardSpanName = 'cardInfoGeneral';
 		this.cardTitle = 'General Info';
+		
+		
+		
 		this.cardCollapseBodyClassCode = cardCollapseEnabled() ? "collapse show" : "";
 		this.cardCollapseBodyIdCode = this.cardSpanName+'Body';
 		
