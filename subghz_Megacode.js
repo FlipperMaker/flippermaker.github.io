@@ -1,12 +1,18 @@
 class subghzMegaCode{
 	constructor() {
 		this.cardSpanName = 'cardMegaCode';
+		this.cardTitle = 'MegaCode (SubGHz)';
+		
+		
+		
+		this.cardCollapseBodyClassCode = cardCollapseEnabled() ? "collapse" : "";
+		this.cardCollapseBodyIdCode = this.cardSpanName+'Body';
+		
+		this.cardCollapseHeadCode = genCardHeadCode(this.cardTitle, this.cardSpanName);
 		this.cardCode = `
 			<div class="card mb-3">
-			  <div class="card-header text-center">
-				<h5 class="card-title">MegaCode (SubGHz)</h5>
-			  </div>
-			  <div class="card-body">
+			  ${this.cardCollapseHeadCode}
+			  <div class="card-body ${this.cardCollapseBodyClassCode}" id="${this.cardCollapseBodyIdCode}">
 				<form id="generateMegaCode">
 				  <div class="mb-3">
 					<label for="nameMegaCode" class="form-label">File Name</label>
@@ -38,6 +44,7 @@ class subghzMegaCode{
 	}
 	renderCard(){
 		document.getElementById(this.cardSpanName).innerHTML = this.cardCode;
+		showHideCard(this.cardSpanName+'BodyCollapse', '#'+this.cardSpanName+'Body');
 		this.formMegaCode = document.getElementById("generateMegaCode");
 		this.formMegaCode.addEventListener("submit", (event) => {
 			event.preventDefault();

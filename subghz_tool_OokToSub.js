@@ -1,12 +1,18 @@
 class subghztoolOokToSub{
 	constructor() {
 		this.cardSpanName = 'cardtoolOokToSub';
+		this.cardTitle = 'Ook To Sub (Tool-SubGHz)';
+		
+		
+		
+		this.cardCollapseBodyClassCode = cardCollapseEnabled() ? "collapse" : "";
+		this.cardCollapseBodyIdCode = this.cardSpanName+'Body';
+		
+		this.cardCollapseHeadCode = genCardHeadCode(this.cardTitle, this.cardSpanName);
 		this.cardCode = `
 			<div class="card mb-3">
-			  <div class="card-header text-center">
-				<h5 class="card-title">Ook To Sub - Beta (Tool-SubGHz)</h5>
-			  </div>
-			  <div class="card-body">
+			  ${this.cardCollapseHeadCode}
+			  <div class="card-body ${this.cardCollapseBodyClassCode}" id="${this.cardCollapseBodyIdCode}">
 				<form id="generateOokToSub">
 				  <div class="mb-3">
 					<label for="nameOokToSub" class="form-label">File Name</label>
@@ -241,6 +247,7 @@ class subghztoolOokToSub{
 	}
 	renderCard(){
 		document.getElementById(this.cardSpanName).innerHTML = this.cardCode;
+		showHideCard(this.cardSpanName+'BodyCollapse', '#'+this.cardSpanName+'Body');
 			
 		this.getForm().addEventListener("submit", (event) => {
 			event.preventDefault();

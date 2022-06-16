@@ -1,3 +1,44 @@
+cardCollapseEnabled = () => true;
+
+
+function showHideCard(btn, cardID){
+	if(!cardCollapseEnabled()) return;
+	if (typeof btn === 'string' || btn instanceof String) btn = document.getElementById(btn);
+	btn.addEventListener("click", (event) => {
+		event.preventDefault();
+		$(cardID).collapse("toggle");
+		$(cardID).on('shown.bs.collapse hidden.bs.collapse', (event) => updateMasonryLayout());			
+	});
+}
+function showHideCardShow(cardID){
+	if(!cardCollapseEnabled()) return;
+	$(cardID).collapse("show");
+	$(cardID).on('shown.bs.collapse hidden.bs.collapse', (event) => updateMasonryLayout());
+}
+function genCardHeadCode(cardTitle, cardSpanName){
+	var a = `<div class="card-header text-center">`;
+	var aa = `<div class="card-header">`;
+	var l = `<div class="ms-auto d-inline-block">`;
+	var ll = `<div class="text-start d-inline-block">`;
+	var lll = `<div class="float-start d-inline-block">`;
+	var r = `<div class="me-auto d-inline-block">`;
+	var rr = `<div class="text-end d-inline-block">`;
+	var rrr = `<div class="float-end d-inline-block">`;
+	var d = `</div>`;
+	var b = `<h5 class="card-title d-inline-block">${cardTitle}</h5>`;
+	if(!cardCollapseEnabled()) return a+b+d;
+	var c = `<button id="${cardSpanName}BodyCollapse" type="button" class="btn btn-primary btn-sm d-inline-block">Show/Hide</button>`;
+	return aa+lll+b+d+rrr+c+d+d;
+}
+
+
+function updateMasonryLayout(){
+	var msnry = new Masonry( '.row', { percentPosition: true });
+	msnry.layout();
+}
+
+
+
 function getDownloadWebsitePrefix(internalUrl = false){
 	if (internalUrl) return "https://flippermaker.github.io/download.html";
 	return "https://dev.flpr.app/s";

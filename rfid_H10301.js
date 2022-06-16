@@ -1,13 +1,19 @@
 class rfidH10301{
 	constructor() {
 		this.cardSpanName = 'cardH10301';
+		this.cardTitle = 'H10301 (RFID)';
+		
+		
+		
+		this.cardCollapseBodyClassCode = cardCollapseEnabled() ? "collapse" : "";
+		this.cardCollapseBodyIdCode = this.cardSpanName+'Body';
+		
+		this.cardCollapseHeadCode = genCardHeadCode(this.cardTitle, this.cardSpanName);
 		this.cardCode = `
 			<div class="card mb-3">
-			  <div class="card-header text-center">
-				<h5 class="card-title">H10301 (RFID)</h5>
-			  </div>
+			  ${this.cardCollapseHeadCode}
 
-			  <div class="card-body">
+			  <div class="card-body ${this.cardCollapseBodyClassCode}" id="${this.cardCollapseBodyIdCode}">
 				<form id="generateH10301">
 				  <div class="mb-3">
 					<label for="nameH10301" class="form-label">File Name</label>
@@ -34,6 +40,7 @@ class rfidH10301{
 	}
 	renderCard(){
 		document.getElementById(this.cardSpanName).innerHTML = this.cardCode;
+		showHideCard(this.cardSpanName+'BodyCollapse', '#'+this.cardSpanName+'Body');
 		this.formH10301 = document.getElementById("generateH10301");
 		this.formH10301.addEventListener("submit", (event) => {
 			event.preventDefault();
