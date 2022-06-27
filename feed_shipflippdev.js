@@ -1,7 +1,7 @@
 class feedShipFlippDev{
 	constructor() {
 		this.cardSpanName = 'cardFeedShipFlippDev';
-		this.cardTitle = 'Latest Shipment Update';//'Shipment Updates';
+		this.cardTitle = 'Shipment Updates';//'Latest Shipment Updates';
 		
 		this.cardCollapseBodyClassCode = cardCollapseEnabled() ? "collapse" : "";
 		this.cardCollapseBodyIdCode = this.cardSpanName+'Body';
