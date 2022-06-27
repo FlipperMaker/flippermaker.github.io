@@ -3,7 +3,7 @@ class feedShipFlippDev{
 		this.cardSpanName = 'cardFeedShipFlippDev';
 		this.cardTitle = 'Latest Shipment Update';//'Shipment Updates';
 		
-		this.cardCollapseBodyClassCode = cardCollapseEnabled() ? "collapse" : "";
+		this.cardCollapseBodyClassCode = cardCollapseEnabled() ? "collapse show" : "";
 		this.cardCollapseBodyIdCode = this.cardSpanName+'Body';
 		
 		this.cardCollapseHeadCode = genCardHeadCode(this.cardTitle, this.cardSpanName);
@@ -35,7 +35,11 @@ class feedShipFlippDev{
 		var cntr = 0;
 		items.forEach(x => {
 			if(cntr < cntrMax){
-				let date = new Date(x.pubDate);
+				let date = x.pubDate.replace(' ','T')+ '-00:00';
+				//var DateTime = luxon.DateTime;
+				//console.log('x.pubDate',x.pubDate.replace(' ','T')+ '-00:00');
+				//console.log(DateTime.fromISO(x.pubDate.replace(' ','T')+ '-00:00'));
+				date = new Date(date);
 				date = date.toLocaleDateString("en-US")
 				let content = x.content;
 				content = content.trim();
