@@ -1,0 +1,5 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Harbor_Breeze_Ceiling_Fan/Fan_high.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Harbor_Breeze_Ceiling_Fan/Fan_light.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Harbor_Breeze_Ceiling_Fan/Fan_low.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Harbor_Breeze_Ceiling_Fan/Fan_med.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Harbor_Breeze_Ceiling_Fan/Fan_off.sub
