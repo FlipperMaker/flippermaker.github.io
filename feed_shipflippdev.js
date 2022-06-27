@@ -9,7 +9,7 @@ class feedShipFlippDev{
 		this.cardCollapseHeadCode = genCardHeadCode(this.cardTitle, this.cardSpanName);
 		
 		this.feed = null;
-		this.maxUpdates = 1;
+		this.maxUpdates = 3;
 
 		this.cardCode = `
 		<div class="card mb-3">
