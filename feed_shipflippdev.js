@@ -35,7 +35,7 @@ class feedShipFlippDev{
 		infoGeneralCard.innerHTML = this.cardCode;
 		showHideCard(this.cardSpanName+'BodyCollapse', '#'+this.cardSpanName+'Body');
 		//showHideCardShow('#'+this.cardSpanName+'Body');
-		getXMLRSSFeed('https://ship.flipp.dev/rss');
+		//getXMLRSSFeed('https://ship.flipp.dev/rss');
 		//getXMLRSSFeed('http://lorem-rss.herokuapp.com/feed');
 		//getJSONRSSFeed('https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fship.flipp.dev%2Frss');
 		
@@ -44,7 +44,7 @@ class feedShipFlippDev{
 			console.log('document.location.href', document.location.href);
 			console.log('location.origin', location.origin);
 			console.log('document.location.hash.slice(1)', document.location.hash.slice(1).toLowerCase());
-			getXMLRSSFeed('https://ship.flipp.dev/rss');
+			getXMLRSSFeedA('https://ship.flipp.dev/rss');
 		}
 	}
 	
