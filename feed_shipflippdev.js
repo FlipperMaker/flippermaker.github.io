@@ -3,7 +3,7 @@ class feedShipFlippDev{
 		this.cardSpanName = 'cardFeedShipFlippDev';
 		this.cardTitle = 'Latest Shipment Update';//'Shipment Updates';
 		
-		this.cardCollapseBodyClassCode = cardCollapseEnabled() ? "collapse show" : "";
+		this.cardCollapseBodyClassCode = cardCollapseEnabled() ? "collapse" : "";
 		this.cardCollapseBodyIdCode = this.cardSpanName+'Body';
 		
 		this.cardCollapseHeadCode = genCardHeadCode(this.cardTitle, this.cardSpanName);
