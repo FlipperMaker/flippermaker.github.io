@@ -30,6 +30,7 @@ class feedShipFlippDev{
 	})
 	*/
 	renderCard(){
+		if (document.location.hash.length === 0) return;
 		var infoGeneralCard = document.getElementById(this.cardSpanName);
 		infoGeneralCard.innerHTML = this.cardCode;
 		showHideCard(this.cardSpanName+'BodyCollapse', '#'+this.cardSpanName+'Body');
