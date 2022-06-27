@@ -1,4 +1,4 @@
-function getXMLRSSFeed(rssUrl){
+async function getRSSFeedProxy(rssUrl){
 	var headers = {
 		'Content-Type': 'application/xml'
 		//,'credentials': "same-origin"
@@ -6,49 +6,26 @@ function getXMLRSSFeed(rssUrl){
 	}
 	var method = 'GET';
 	var mode = 'no-cors';
-	
-	fetch(rssUrl, 
+	var ret = null;
+	rssUrl = 'https://api.rss2json.com/v1/api.json?rss_url=' + encodeURIComponent(rssUrl);
+	return await fetch(rssUrl, 
 		{
 			method: method,
-			mode: mode,
-			headers: headers
+			//mode: mode,
+			//headers: headers
 		})
-		.then(response => response.text())
-		.then(x => console.log('x', x))
+		.then(response => response.json())
+		.then(responseData =>  {return responseData;});
 		//.then(str => new window.DOMParser().parseFromString(str, "text/xml"))
-		.then(data => console.log('data', data))
-	
+		//.then(data => console.log('data', data))
+	return null;
 }
-function getXMLRSSFeedA(rssUrl){
-	let xhr = new XMLHttpRequest();
-	xhr.open('GET', rssUrl);
-	xhr.send();
-	xhr.onload = function() {
-		if (xhr.status != 200) { // analyze HTTP status of the response
-			console.log(`Error ${xhr.status}: ${xhr.statusText}`); // e.g. 404: Not Found
-		} else { // show the result
-			console.log(`Done, got ${xhr.response.length} bytes`); // response is the server response
-		}
-	};
-}
-
-function getJSONRSSFeed(rssUrl){
-	var headers = {
-		'Content-Type': 'application/xml'
-		//,'Access-Control-Allow-Origin':'*'
-	}
-	var method = 'GET';
-	var mode = 'cors';
-	
-	fetch(rssUrl, 
-		{
-			method: method,
-			mode: mode,
-			headers: headers
-		})
-		.then(response => response.text())
-		.then(x => console.log(x))
-		//.then(str => new window.DOMParser().parseFromString(str, "text/xml"))
-		.then(data => console.log(data))
-	
-}
+// function getXMLRSSFeedA(rssUrl){
+	// let xhr = new XMLHttpRequest();
+	// xhr.open('GET', rssUrl);
+	// xhr.send();
+	// xhr.onload = function() {
+		// if (xhr.status != 200) console.log(`Error ${xhr.status}: ${xhr.statusText}`);
+		// else console.log(`Done, got ${xhr.response.length} bytes`);
+	// };
+// }
