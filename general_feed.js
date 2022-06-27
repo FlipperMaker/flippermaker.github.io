@@ -5,7 +5,7 @@ async function getXMLRSSFeed(rssUrl){
 		//,'Access-Control-Allow-Origin':'*'
 	}
 	var method = 'GET';
-	var mode = 'cors';
+	var mode = 'no-cors';
 	
 	await fetch(rssUrl, 
 		{
