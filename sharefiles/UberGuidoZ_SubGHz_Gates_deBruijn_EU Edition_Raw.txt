@@ -1,0 +1,5 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Gates/deBruijn/EU Edition/Raw/Db10-EU.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Gates/deBruijn/EU Edition/Raw/Db11-EU.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Gates/deBruijn/EU Edition/Raw/Db12-EU.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Gates/deBruijn/EU Edition/Raw/Db8-EU.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Gates/deBruijn/EU Edition/Raw/Db9-EU.sub

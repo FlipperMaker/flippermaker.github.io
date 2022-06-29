@@ -1,0 +1,5 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Gates/deBruijn/EU Edition/Binary/deBruijn300AllBit-EU.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Gates/deBruijn/EU Edition/Binary/deBruijn310AllBit-EU.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Gates/deBruijn/EU Edition/Binary/deBruijn315AllBit-EU.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Gates/deBruijn/EU Edition/Binary/deBruijn318AllBit-EU.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Gates/deBruijn/EU Edition/Binary/deBruijn390AllBit-EU.sub

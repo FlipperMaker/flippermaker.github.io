@@ -1,6 +1,7 @@
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Music_Player/Dior.fmf
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Music_Player/FF7_Victory_Fanfare.fmf
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Music_Player/Faded.fmf
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Music_Player/Flipnoise.fmf
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Music_Player/Flipperlovania.fmf
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Music_Player/Marble_Machine.fmf
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Music_Player/Oum_le_dauphin.fmf
