@@ -45,4 +45,54 @@ Created debug and capture keyboard input and to test out what keys the Flipper Z
   
 </p>
 </details>
-  
+
+#### Output Examples
+<details>
+<summary>Example 1</summary>
+<p>
+ 
+```
+Alt Code:
+	int:97
+	hex:61
+	str:a
+	unicode:a  U+0061
+ original:[ALT][9][7][/ALT]
+FULL: Parsed_B: 97  (Original: [ALT][9][7][/ALT])
+
+Alt Code:
+	int:51
+	hex:33
+	str:3
+	unicode:3  U+0033
+ original:[ALT][5][1][/ALT]
+FULL: Parsed_B: 51  (Original: [ALT][5][1][/ALT])
+
+```
+ 
+</p>
+</details>
+
+
+<details>
+<summary>Example 2</summary>
+<p>
+ 
+`A a very Helpful tool ctrl+c`
+```
+Parsed_B: A  (Original: [SHIFT][A][/SHIFT])
+FULL: Parsed_B: A  (Original: [SHIFT][A][/SHIFT])
+ 
+Parsed_B: a very H  (Original: [BACKSPACE][A][SPACE][V][E][R][Y][SPACE][SHIFT][H][/SHIFT])
+FULL: Parsed_B: a very H  (Original: [BACKSPACE][A][SPACE][V][E][R][Y][SPACE][SHIFT][H][/SHIFT])
+ 
+Parsed_B: elpful tool  (Original: [E][L][P][SPACE][F][U][L][SPACE][BACKSPACE][BACKSPACE][BACKSPACE][BACKSPACE][BACKSPACE][F][U][L][SPACE][T][O][O][L])
+FULL: Parsed_B: elpful tool  (Original: [E][L][P][SPACE][F][U][L][SPACE][BACKSPACE][BACKSPACE][BACKSPACE][BACKSPACE][BACKSPACE][F][U][L][SPACE][T][O][O][L])
+ 
+Parsed_B: c  (Original: [CTRL][C][/CTRL])
+FULL: Parsed_B: c  (Original: [CTRL][C][/CTRL])
+
+```
+ 
+</p>
+</details>
