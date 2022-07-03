@@ -7,6 +7,7 @@ class cardManager{
 		this.irCards = [];
 		this.nfcCards = [];
 		this.infoCards = [];
+		this.badusbCards = [];
 		this.feedCards = [];
 		this.unknownCards = [];
 		//this.cardRowCode = `<div class="row" data-masonry= '{"percentPosition": true }'>`;
@@ -36,6 +37,9 @@ class cardManager{
 			case 'info':
 				this.infoCards.push(cardObject);
 				break;
+			case 'badusb':
+				this.badusbCards.push(cardObject);
+				break;
 			case 'feed':
 				this.feedCards.push(cardObject);
 				break;
@@ -60,6 +64,8 @@ class cardManager{
 				return this.infoCards;
 			case 'feed':
 				return this.feedCards;
+			case 'badusb':
+				return this.badusbCards;
 			case 'generaltool':
 				return this.generalToolCards;
 			default:
@@ -87,6 +93,9 @@ class cardManager{
 	}
 	addInfoCard(cardObject){
 		this.addCard('info', cardObject);
+	}
+	addBadUSBCard(cardObject){
+		this.addCard('badusb', cardObject);
 	}
 	addFeedCard(cardObject){
 		this.addCard('feed', cardObject);
@@ -131,6 +140,7 @@ class cardManager{
 		this.nfcCards.forEach(c => {ret = ret + this.genShowAllCardsRow(c); });
 		this.generalToolCards.forEach(c => {ret = ret + this.genShowAllCardsRow(c); });
 		this.subghzToolCards.forEach(c => {ret = ret + this.genShowAllCardsRow(c); });
+		this.badusbCards.forEach(c => {ret = ret + this.genShowAllCardsRow(c); });
 		//c => {}
 		ret = ret + '</div>';
 		document.getElementById(targetID).innerHTML = ret;
@@ -157,6 +167,7 @@ class cardManager{
 		this.subghzToolCards.forEach(c => {c.renderCard();});
 		this.rfidCards.forEach(c => {c.renderCard();});
 		this.nfcCards.forEach(c => {c.renderCard();});
+		this.badusbCards.forEach(c => {c.renderCard();});
 		
 	}
 	

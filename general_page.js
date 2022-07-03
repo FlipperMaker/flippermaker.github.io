@@ -1,4 +1,4 @@
-var FLIPPERMAKER_VERSION = '6_27_2022_1';
+var FLIPPERMAKER_VERSION = '7_3_2022_1';
 
 
 function loadScript(url, callback) {
@@ -15,11 +15,14 @@ function loadScript(url, callback) {
 function performImports(){
 	[
 	'general.js',
+	'cardTools.js',
+	'general_badusb.js',
 	'general_subghz.js',
 	'general_rfid.js',
 	'general_ir.js',
 	'general_nfc.js',
 	'general_feed.js',
+	'badusb_stringToAltCodes.js',
 	'info_General.js',
 	'feed_shipflippdev.js',
 	'subghz_Touchtunes.js',
@@ -49,6 +52,7 @@ function createCardManager(){
 	cardManagerInstance.addNfcCard(new nfctoolCreate());
 	cardManagerInstance.addInfoCard(new infoGeneral());
 	cardManagerInstance.addFeedCard(new feedShipFlippDev());
+	cardManagerInstance.addBadUSBCard(new badusbStringToAltCodes());
 }
 function renderBaseHtml(){
 	renderGenericTopBar();
