@@ -1,7 +1,3 @@
-https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/433_Tesla_AM270.sub
-https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/433_Tesla_AM650.sub
-https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/433_Tesla_Captured.sub
-https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/433b_Tesla_Captured.sub
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/BruteForceRest.sub
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/Crosswalk_Unknown.sub
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/Generic_Ceiling_Fan_Remote.sub
@@ -12,6 +8,7 @@ https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/Liftm
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/Mink Aire code set 0_Fan High.sub
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/Mink Aire code set 0_Fan_Off.sub
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/Tesla_Captured.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/Van_left_blink.sub
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/came.sub
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/came_twee.sub
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/doorhan.sub

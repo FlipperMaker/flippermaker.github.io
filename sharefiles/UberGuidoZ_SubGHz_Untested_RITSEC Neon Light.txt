@@ -1,0 +1,8 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/RITSEC Neon Light/Brt_down.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/RITSEC Neon Light/Brt_up.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/RITSEC Neon Light/Light.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/RITSEC Neon Light/Mode_down.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/RITSEC Neon Light/Mode_up.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/RITSEC Neon Light/Pwr.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/RITSEC Neon Light/Spd_down.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Untested/RITSEC Neon Light/Spd_up.sub

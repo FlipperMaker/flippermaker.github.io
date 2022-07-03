@@ -9,8 +9,8 @@ Community updates/pull requests are encouraged!
 * On your PC option 2: Download the generated file, then copy the file to the correct directory on your Flipper Zero's SD Card.
 
 
-## Update 6/13/2022 Update 2
-* Support for NTAG213, NTAG215, NTAG216! Increased URL lengths! Create NTAG21X NFC files that open a URL. 
+## Update 6/15/2022
+* Custom version of [dev.flpr.app](https://dev.flpr.app) for downloading files
 * [`Previous Updates`](https://github.com/FlipperMaker/flippermaker.github.io/discussions/categories/updates)
 
 ## Currently Supported Protocols:

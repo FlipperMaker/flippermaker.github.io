@@ -1,12 +1,18 @@
 class generaltoolShare{
 	constructor() {
 		this.cardSpanName = 'cardtoolShare';
+		this.cardTitle = 'File Install/Share (Tool-Gen.)';
+		
+		
+		
+		this.cardCollapseBodyClassCode = cardCollapseEnabled() ? "collapse" : "";
+		this.cardCollapseBodyIdCode = this.cardSpanName+'Body';
+		
+		this.cardCollapseHeadCode = genCardHeadCode(this.cardTitle, this.cardSpanName);
 		this.cardCode = `
 			<div class="card mb-3">
-			  <div class="card-header text-center">
-				<h5 class="card-title">File Install/Share (Tool-General)</h5>
-			  </div>
-			  <div class="card-body">
+			  ${this.cardCollapseHeadCode}
+			  <div class="card-body ${this.cardCollapseBodyClassCode}" id="${this.cardCollapseBodyIdCode}">
 				<form id="generateToolShare">
 				  <div class="mb-3">
 					<label for="nameFormToolShare" class="form-label">File Name</label>
@@ -283,13 +289,14 @@ RAW_Data: -754 361 -17246 131 -8734 65 -71908...
 	}
 	renderCard(){
 		document.getElementById(this.cardSpanName).innerHTML = this.cardCode;
+		showHideCard(this.cardSpanName+'BodyCollapse', '#'+this.cardSpanName+'Body');
 		this.getFormFileContent().placeholder = this.textArea;
 		this.loadFileTypeOptions();
 		this.loadGithubRepos(this.githubreposurl);
 		
 		this.buttonFormExampleGithub().addEventListener("click", (event) => {
 			event.preventDefault();
-			this.getForm().elements["githuburldirectFormToolShare"].value = "https://github.com/UberGuidoZ/Flipper/blob/main/Sub-GHz/Tesla_charge_AM650.sub";
+			this.getForm().elements["githuburldirectFormToolShare"].value = "https://github.com/UberGuidoZ/Flipper/blob/main/Sub-GHz/Vehicles/Tesla/Tesla_charge_AM650.sub";
 		});
 		this.buttonFormLoadGithubUrlDirectText().addEventListener("click", (event) => {
 			event.preventDefault();
@@ -425,8 +432,8 @@ RAW_Data: -754 361 -17246 131 -8734 65 -71908...
 		var filePath = this.filePaths[this.getFormFiletype(true)];
 		if(fc.length == 0){ return '#'; }
 		fc = fc.split('\n');
-		var returnUrlCheck = "https://dev.flpr.app/s#path="+filePath+"%2F"+this.getFormFileName(true)+"."+this.getFormFiletype(true);
-		var returnUrl = "https://dev.flpr.app/s#path="+filePath+"%2F"+this.getFormFileName(true)+"."+this.getFormFiletype(true);
+		var returnUrlCheck = getDownloadWebsitePrefix()+"#path="+filePath+"%2F"+this.getFormFileName(true)+"."+this.getFormFiletype(true);
+		var returnUrl = getDownloadWebsitePrefix()+"#path="+filePath+"%2F"+this.getFormFileName(true)+"."+this.getFormFiletype(true);
 		var returnUrlParams = '';
 		fc.forEach( i => { 
 			if(this.getFormFiletype(true) == 'sub'){ 

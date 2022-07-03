@@ -1,4 +1,6 @@
-var FLIPPERMAKER_VERSION = '5_13_30_2022_1';
+var FLIPPERMAKER_VERSION = '6_27_2022_1';
+
+
 function loadScript(url, callback) {
 	var head = document.getElementsByTagName('head')[0];
 	var script = document.createElement('script');
@@ -17,6 +19,9 @@ function performImports(){
 	'general_rfid.js',
 	'general_ir.js',
 	'general_nfc.js',
+	'general_feed.js',
+	'info_General.js',
+	'feed_shipflippdev.js',
 	'subghz_Touchtunes.js',
 	'subghz_tool_OokToSub.js',
 	'general_tool_Share.js',
@@ -42,6 +47,8 @@ function createCardManager(){
 	cardManagerInstance.addSubghzCard(new subghzFirefly());
 	cardManagerInstance.addIrCard(new irGeneric());
 	cardManagerInstance.addNfcCard(new nfctoolCreate());
+	cardManagerInstance.addInfoCard(new infoGeneral());
+	cardManagerInstance.addFeedCard(new feedShipFlippDev());
 }
 function renderBaseHtml(){
 	renderGenericTopBar();
@@ -115,7 +122,7 @@ function renderGenericModalBar(){
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <div id="generateButtonModal">asdf</div>
+          <div id="generateButtonModal"></div>
         </div>
       </div>
     </div>`;

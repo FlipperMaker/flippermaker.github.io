@@ -1,12 +1,18 @@
 class subghzMegaCode{
 	constructor() {
 		this.cardSpanName = 'cardMegaCode';
+		this.cardTitle = 'MegaCode (SubGHz)';
+		
+		
+		
+		this.cardCollapseBodyClassCode = cardCollapseEnabled() ? "collapse" : "";
+		this.cardCollapseBodyIdCode = this.cardSpanName+'Body';
+		
+		this.cardCollapseHeadCode = genCardHeadCode(this.cardTitle, this.cardSpanName);
 		this.cardCode = `
 			<div class="card mb-3">
-			  <div class="card-header text-center">
-				<h5 class="card-title">MegaCode (SubGHz)</h5>
-			  </div>
-			  <div class="card-body">
+			  ${this.cardCollapseHeadCode}
+			  <div class="card-body ${this.cardCollapseBodyClassCode}" id="${this.cardCollapseBodyIdCode}">
 				<form id="generateMegaCode">
 				  <div class="mb-3">
 					<label for="nameMegaCode" class="form-label">File Name</label>
@@ -38,6 +44,7 @@ class subghzMegaCode{
 	}
 	renderCard(){
 		document.getElementById(this.cardSpanName).innerHTML = this.cardCode;
+		showHideCard(this.cardSpanName+'BodyCollapse', '#'+this.cardSpanName+'Body');
 		this.formMegaCode = document.getElementById("generateMegaCode");
 		this.formMegaCode.addEventListener("submit", (event) => {
 			event.preventDefault();
@@ -108,7 +115,7 @@ class subghzMegaCode{
 		var kd2 = hexData.slice(2, 4);
 		var kd3 = hexData.slice(4, 6);
 		var returnUrl =
-			'<a href="https://dev.flpr.app/s/#path=subghz/' +
+			'<a href="'+getDownloadWebsitePrefix()+'#path=subghz/' +
 			keyName +
 			".sub&Filetype=Flipper+SubGhz+Key+File&Version=1&Frequency=318000000&Preset=FuriHalSubGhzPresetOok650Async&Protocol=MegaCode&Bit=24&Key=00+00+00+00+00+" +
 			kd1 +

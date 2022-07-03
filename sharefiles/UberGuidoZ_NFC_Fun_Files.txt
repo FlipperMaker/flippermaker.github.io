@@ -1,3 +1,4 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/NFC/Fun_Files/Call_911.nfc
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/NFC/Fun_Files/Empty_NTAG213.nfc
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/NFC/Fun_Files/Empty_NTAG216.nfc
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/NFC/Fun_Files/Flipper_wifi_connect.nfc
@@ -7,4 +8,4 @@ https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/NFC/Fun_Files/GuidoZ.n
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/NFC/Fun_Files/How_to_compile_DFU.nfc
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/NFC/Fun_Files/Open_Android_flipper.nfc
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/NFC/Fun_Files/RickRoll.nfc
-https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/NFC/Fun_Files/Rickroll_noad.nfc
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/NFC/Fun_Files/Rickroll_no_ads.nfc

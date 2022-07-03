@@ -1,12 +1,18 @@
 class nfctoolCreate{
 	constructor() {
 		this.cardSpanName = 'cardtoolNfcCreate';
+		this.cardTitle = 'NFC Creator (Tool-NFC)';
+		
+		
+		
+		this.cardCollapseBodyClassCode = cardCollapseEnabled() ? "collapse" : "";
+		this.cardCollapseBodyIdCode = this.cardSpanName+'Body';
+		
+		this.cardCollapseHeadCode = genCardHeadCode(this.cardTitle, this.cardSpanName);
 		this.cardCode = `
 			<div class="card mb-3">
-			  <div class="card-header text-center">
-				<h5 class="card-title">NFC Creator (Tool-NFC)</h5>
-			  </div>
-			  <div class="card-body">
+			  ${this.cardCollapseHeadCode}
+			  <div class="card-body ${this.cardCollapseBodyClassCode}" id="${this.cardCollapseBodyIdCode}">
 				<form id="generateNfcToolCreate">
 				  <div class="mb-3">
 					<label for="nameFormNfcToolCreate" class="form-label">File Name</label>
@@ -68,6 +74,7 @@ class nfctoolCreate{
 	
 	renderCard(){
 		document.getElementById(this.cardSpanName).innerHTML = this.cardCode;
+		showHideCard(this.cardSpanName+'BodyCollapse', '#'+this.cardSpanName+'Body');
 		this.buttonFormExample().addEventListener("click", (event) => {
 			event.preventDefault();
 			this.getForm().elements["urlFormNfcToolCreate"].value = "https://youtu.be/dQw4w9WgXcQ";

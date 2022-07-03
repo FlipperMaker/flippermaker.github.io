@@ -1,46 +1,50 @@
 class irGeneric{
 	constructor() {
 		this.cardSpanName = 'cardIrDevice';
+		this.cardTitle = 'IR Device (IR)';
+		
+		
+		this.cardCollapseBodyClassCode = cardCollapseEnabled() ? "collapse" : "";
+		this.cardCollapseBodyIdCode = this.cardSpanName+'Body';
+		this.cardCollapseHeadCode = genCardHeadCode(this.cardTitle, this.cardSpanName);
+		
 		this.cardCode = `
-			<div class="card mb-3">
-			  <div class="card-header text-center">
-				<h5 class="card-title">IR Device (IR)</h5>
-			  </div>
+		<div class="card mb-3">
+			${this.cardCollapseHeadCode}
 
-			  <div class="card-body">
+			<div class="card-body ${this.cardCollapseBodyClassCode}" id="${this.cardCollapseBodyIdCode}">
 				<form id="generateIrDevice">
-				  <div class="mb-3">
-					<label for="nameIrDevice" class="form-label">File Name</label>
-					<input type="text" class="form-control" id="nameIrDevice">
-					<div id="nameHelpIrDevice" class="form-text">Do not include ".ir" It will be added automatically. A blank name will automatically be named.</div>
-				  </div>
-				  <div class="mb-3">
-					<label for="typeDeviceIrDevice" class="form-label">Type of Device</label>
-					<select id="typeDeviceIrDevice" class="form-select" aria-label="Default select">
-					  <option value= "none" selected>Select Device Type</option>
-					</select>
-					<div id="typeDeviceHelpIrDevice" class="form-text">Select Type of Device</div>
-				  </div>
-				  <div class="mb-3">
-					<label for="modelDeviceIrDevice" class="form-label">Model of Device</label>
-					<select id="modelDeviceIrDevice" class="form-select" aria-label="Default select">
-					  <option value= "none" selected>Select Device Model</option>
-					</select>
-					<div id="modelDeviceHelpIrDevice" class="form-text">Select Model</div>
-				  </div>
-				  <div class="mb-3">
-					<label for="targetBtnIrDevice" class="form-label">Button</label>
-					<select id="targetBtnIrDevice" class="form-select" aria-label="Default select">
-					  <option value= "all" selected>All</option>
-					</select>
-					<div id="targetBtnHelpIrDevice" class="form-text">Select Button</div>
-				  </div>
-				  <button id="generateIrDevice" type="submit" class="btn btn-primary">Generate</button>
-				  <!--<button id="resetIrDevice" type="reset" class="btn btn-primary">Reset</button>-->
-
+					<div class="mb-3">
+						<label for="nameIrDevice" class="form-label">File Name</label>
+						<input type="text" class="form-control" id="nameIrDevice">
+						<div id="nameHelpIrDevice" class="form-text">Do not include ".ir" It will be added automatically. A blank name will automatically be named.</div>
+					</div>
+					<div class="mb-3">
+						<label for="typeDeviceIrDevice" class="form-label">Type of Device</label>
+						<select id="typeDeviceIrDevice" class="form-select" aria-label="Default select">
+							<option value= "none" selected>Select Device Type</option>
+						</select>
+						<div id="typeDeviceHelpIrDevice" class="form-text">Select Type of Device</div>
+					</div>
+					<div class="mb-3">
+						<label for="modelDeviceIrDevice" class="form-label">Model of Device</label>
+						<select id="modelDeviceIrDevice" class="form-select" aria-label="Default select">
+							<option value= "none" selected>Select Device Model</option>
+						</select>
+						<div id="modelDeviceHelpIrDevice" class="form-text">Select Model</div>
+					</div>
+					<div class="mb-3">
+						<label for="targetBtnIrDevice" class="form-label">Button</label>
+						<select id="targetBtnIrDevice" class="form-select" aria-label="Default select">
+							<option value= "all" selected>All</option>
+						</select>
+						<div id="targetBtnHelpIrDevice" class="form-text">Select Button</div>
+					</div>
+					<button id="generateIrDevice" type="submit" class="btn btn-primary">Generate</button>
+					<!--<button id="resetIrDevice" type="reset" class="btn btn-primary">Reset</button>-->
 				</form>
-			  </div>
 			</div>
+		</div>
 		`;
 		this.irAll = {};
 		this.irDeviceTypes = ["TV", "AC", "AudioReceivers", "Bluray", "CCTV", "Cameras", "Consoles", "Converters", "Headunits", "Ledlighting", "Miscellaneous", "Projectors", "Soundbars", "StreamingDevices"];
@@ -62,6 +66,7 @@ class irGeneric{
 	}
 	renderCard(){
 		document.getElementById(this.cardSpanName).innerHTML = this.cardCode;
+		showHideCard(this.cardSpanName+'BodyCollapse', '#'+this.cardSpanName+'Body');
 		this.clearAllOptions();
 		this.formTypeDeviceIrDevice = this.getFormTypeDevice();
 		this.formModelDeviceIrDevice = this.getFormModelDevice();

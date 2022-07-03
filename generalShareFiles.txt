@@ -16,8 +16,8 @@
 #NOTES:#########################################
 #A line is only considered a comment if the first character is a '#'
 
-https://github.com/UberGuidoZ/Flipper/blob/main/Sub-GHz/Tesla_charge_AM650.sub
-https://github.com/UberGuidoZ/Flipper/blob/main/Sub-GHz/Tesla_charge_AM270.sub
-https://github.com/UberGuidoZ/Flipper/blob/main/Sub-GHz/Handicap_button_1270.sub
-https://github.com/UberGuidoZ/Flipper/blob/main/Sub-GHz/Handicap_button_1650.sub
+https://github.com/UberGuidoZ/Flipper/blob/main/Sub-GHz/Vehicles/Tesla/Tesla_charge_AM650.sub
+https://github.com/UberGuidoZ/Flipper/blob/main/Sub-GHz/Vehicles/Tesla/Tesla_charge_AM270.sub
+https://github.com/UberGuidoZ/Flipper/blob/main/Sub-GHz/Handicap/Handicap_button_1270.sub
+https://github.com/UberGuidoZ/Flipper/blob/main/Sub-GHz/Handicap/Handicap_button_1650.sub
 https://github.com/UberGuidoZ/Flipper/blob/main/Infrared/tv.ir

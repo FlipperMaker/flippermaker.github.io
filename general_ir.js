@@ -24,14 +24,14 @@ class irDeviceButton{
 //&name=Power&type=parsed&protocol=Samsung32&address=0E+00+00+00&command=0C+00+00+00
 function genUrlIr(keyName, fileType, version, btnName, irType, irProtocol, irAddress, irCommand) {
 	var encodedFileType = replaceSpace(fileType, "+");
-	var returnUrl = "https://dev.flpr.app/s#path=infrared/" + keyName + ".ir&Filetype=" + encodedFileType + "&Version=" + version + genUrlIrSingleButton(btnName, irType, irProtocol, irAddress, irCommand) + "%0A";
+	var returnUrl = getDownloadWebsitePrefix()+"#path=infrared/" + keyName + ".ir&Filetype=" + encodedFileType + "&Version=" + version + genUrlIrSingleButton(btnName, irType, irProtocol, irAddress, irCommand) + "%0A";
 	return returnUrl;
 }
 function genUrlIrMultiButton(keyName, fileType, version, buttonArray) {
 	if(buttonArray.length == 0){return "#";}
 	if(buttonArray.length == 1){return genUrlIr(keyName, fileType, version, buttonArray[0].btnName, buttonArray[0].irType, buttonArray[0].irProtocol, buttonArray[0].btnAddress, buttonArray[0].btnCommand);}
 	var encodedFileType = replaceSpace(fileType, "+");
-	var returnUrl = "https://dev.flpr.app/s#path=infrared/" + keyName + ".ir&Filetype=" + encodedFileType + "&Version=" + version + genUrlIrMultiButtonString(buttonArray) + "%0A";
+	var returnUrl = getDownloadWebsitePrefix()+"#path=infrared/" + keyName + ".ir&Filetype=" + encodedFileType + "&Version=" + version + genUrlIrMultiButtonString(buttonArray) + "%0A";
 	console.log(returnUrl);
 	return returnUrl;
 }

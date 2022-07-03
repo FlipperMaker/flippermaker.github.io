@@ -4,5 +4,11 @@ https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Sextoy1.sub
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Sextoy2.sub
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Sextoy3.sub
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Sextoy4.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Tesla_Captured_AUD433b.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Tesla_Captured_AUS433.sub
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Tesla_charge_AM270.sub
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Tesla_charge_AM650.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Tesla_charge_AUS433_AM270.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Tesla_charge_AUS433_AM650.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Tesla_charge_EU_AM270.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Tesla_charge_EU_AM650.sub

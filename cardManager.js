@@ -6,6 +6,8 @@ class cardManager{
 		this.rfidCards = [];
 		this.irCards = [];
 		this.nfcCards = [];
+		this.infoCards = [];
+		this.feedCards = [];
 		this.unknownCards = [];
 		//this.cardRowCode = `<div class="row" data-masonry= '{"percentPosition": true }'>`;
 		this.cardRowCode = `<div class="row" >`;
@@ -31,6 +33,12 @@ class cardManager{
 			case 'generaltool':
 				this.generalToolCards.push(cardObject);
 				break;
+			case 'info':
+				this.infoCards.push(cardObject);
+				break;
+			case 'feed':
+				this.feedCards.push(cardObject);
+				break;
 			default:
 				this.unknownCards.push(cardObject);
 				return;
@@ -48,6 +56,10 @@ class cardManager{
 				return this.irCards;
 			case 'nfc':
 				return this.nfcCards;
+			case 'info':
+				return this.infoCards;
+			case 'feed':
+				return this.feedCards;
 			case 'generaltool':
 				return this.generalToolCards;
 			default:
@@ -72,6 +84,12 @@ class cardManager{
 	}
 	addNfcCard(cardObject){
 		this.addCard('nfc', cardObject);
+	}
+	addInfoCard(cardObject){
+		this.addCard('info', cardObject);
+	}
+	addFeedCard(cardObject){
+		this.addCard('feed', cardObject);
 	}
 	genShowAllCardsRow(cardObj){
 		//console.log('<div id="'+cardObj.cardSpanName+'" class="col-sm-4"></div>');
@@ -105,6 +123,8 @@ class cardManager{
 	} */ 
 	showAllCards(targetID){ //NOTE: Render order for index///////////////////////////////////////////////////////////////////////////////
 		var ret = this.cardRowCode;
+		this.infoCards.forEach(c => {ret = ret + this.genShowAllCardsRow(c); });
+		this.feedCards.forEach(c => {ret = ret + this.genShowAllCardsRow(c); });
 		this.irCards.forEach(c => {ret = ret + this.genShowAllCardsRow(c); });
 		this.subghzCards.forEach(c => {ret = ret + this.genShowAllCardsRow(c); });
 		this.rfidCards.forEach(c => {ret = ret + this.genShowAllCardsRow(c); });
@@ -128,7 +148,9 @@ class cardManager{
 		var tempCards = this.getCardsByType(cardType)
 		tempCards.forEach(c => {c.renderCard();});
 	}
-	renderCards(){
+	renderCards(){ //NOTE: Render cards///////////////////////////////////////////////////////////////////////////////
+		this.infoCards.forEach(c => {c.renderCard();});
+		this.feedCards.forEach(c => {c.renderCard();});
 		this.irCards.forEach(c => {c.renderCard();});
 		this.subghzCards.forEach(c => {c.renderCard();});
 		this.generalToolCards.forEach(c => {c.renderCard();});

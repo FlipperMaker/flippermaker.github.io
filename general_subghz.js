@@ -82,7 +82,7 @@ class subghzDeviceSignalRawMulti{
 function genUrlSub(keyName, fileType, version, frequency, preset, protocol, bitLength, keyData) {
 	var encodedFileType = fileType.replaceAll(" ", "+");
 	var encodedKey = splitIntoPairs(keyData).join("+");
-	var returnUrl = "https://dev.flpr.app/s#path=subghz/" + keyName + ".sub&Filetype=" + encodedFileType + "&Version=" + version + "&Frequency=" + frequency + "&Preset=" + preset + "&Protocol=" + protocol + "&Bit=" + bitLength + "&Key=" + encodedKey;
+	var returnUrl = getDownloadWebsitePrefix()+"#path=subghz/" + keyName + ".sub&Filetype=" + encodedFileType + "&Version=" + version + "&Frequency=" + frequency + "&Preset=" + preset + "&Protocol=" + protocol + "&Bit=" + bitLength + "&Key=" + encodedKey;
 	return returnUrl;
 }
 
@@ -103,7 +103,7 @@ function genUrlSub_Raw_StringRawData(keyName, fileType, version, frequency, pres
 	var rawData = rawDataFormatted_String;
 	keyName = replaceSpace(keyName, "_");
 	fileType = replaceSpace(fileType, "%20");
-	var returnUrl = "https://dev.flpr.app/s#path=subghz/" + keyName + ".sub&Filetype=" + fileType + "&Version=" + version + "&Frequency=" + frequency + "&Preset=" + preset + "&Protocol=" + protocol + rawData;
+	var returnUrl = getDownloadWebsitePrefix()+"#path=subghz/" + keyName + ".sub&Filetype=" + fileType + "&Version=" + version + "&Frequency=" + frequency + "&Preset=" + preset + "&Protocol=" + protocol + rawData;
 	return returnUrl;
 }
 function genUrlSub_Raw(keyName, fileType, version, frequency, preset, protocol, rawDataFormatted_Array, prefix = "RAW_Data") {
@@ -111,7 +111,7 @@ function genUrlSub_Raw(keyName, fileType, version, frequency, preset, protocol, 
 	var rawData = rawDataSubFormattedArray_to_Url(rawDataFormatted_Array, prefix);
 	keyName = replaceSpace(keyName, "_");
 	fileType = replaceSpace(fileType, "%20");
-	var returnUrl = "https://dev.flpr.app/s#path=subghz/" + keyName + ".sub&Filetype=" + fileType + "&Version=" + version + "&Frequency=" + frequency + "&Preset=" + preset + "&Protocol=" + protocol + rawData;
+	var returnUrl = getDownloadWebsitePrefix()+"#path=subghz/" + keyName + ".sub&Filetype=" + fileType + "&Version=" + version + "&Frequency=" + frequency + "&Preset=" + preset + "&Protocol=" + protocol + rawData;
 	return returnUrl;
 }
 function ookToSubRaw(inputName, inputFileType, inputVersion, inputFrequency, inputPreset, inputProtocol, inputOneLen, inputZeroLen, inputRepeats, inputPause, inputOokBits){

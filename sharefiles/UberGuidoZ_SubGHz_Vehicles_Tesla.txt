@@ -1,0 +1,7 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Vehicles/Tesla/433_Tesla_AM270_EU_AUS.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Vehicles/Tesla/433_Tesla_AM650_EU_AUS.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Vehicles/Tesla/433_Tesla_Captured_EU_AUS.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Vehicles/Tesla/433b_Tesla_Captured_EU_AUS.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Vehicles/Tesla/Tesla_Captured.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Vehicles/Tesla/Tesla_charge_AM270.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Vehicles/Tesla/Tesla_charge_AM650.sub

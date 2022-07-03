@@ -4,3 +4,4 @@ https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Doorbells/Door
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Doorbells/Doorbell3.sub
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Doorbells/Doorbell4.sub
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Doorbells/DoorbellFM.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Doorbells/Sadotech_Doorbell.sub

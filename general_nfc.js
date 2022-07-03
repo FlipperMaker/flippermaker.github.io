@@ -15,8 +15,8 @@ class nfcGeneral{
 		var fc = generatedNFC.trim();
 		if(fc.length == 0){ return '#'; }
 		fc = fc.split('\n');
-		var returnUrlCheck = "https://dev.flpr.app/s#path=nfc%2F"+filename+".nfc";
-		var returnUrl = "https://dev.flpr.app/s#path=nfc%2F"+filename+".nfc";
+		var returnUrlCheck = getDownloadWebsitePrefix(true)+"#path=nfc%2F"+filename+".nfc";
+		var returnUrl = getDownloadWebsitePrefix(true)+"#path=nfc%2F"+filename+".nfc";
 		fc.forEach( i => {
 			var ii = i.trim();	
 			if(ii.slice(0,1) != '#' && ii.length > 0){
@@ -29,7 +29,7 @@ class nfcGeneral{
 		});
 		if(badUrl){return "";}
 		if(returnUrlCheck == returnUrl){return "";}
-		return returnUrl + LF;
+		return returnUrl;// + LF;
 	}
 }
 class nfcHelper{

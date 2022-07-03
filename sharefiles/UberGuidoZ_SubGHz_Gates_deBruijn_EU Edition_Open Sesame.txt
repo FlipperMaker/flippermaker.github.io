@@ -1,0 +1,4 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Gates/deBruijn/EU Edition/Open Sesame/10bit-433-mhz-EU.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Gates/deBruijn/EU Edition/Open Sesame/10bit-433mhz-EU.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Gates/deBruijn/EU Edition/Open Sesame/9bit-390mhz-EU.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Gates/deBruijn/EU Edition/Open Sesame/9bit-433mhz-EU.sub

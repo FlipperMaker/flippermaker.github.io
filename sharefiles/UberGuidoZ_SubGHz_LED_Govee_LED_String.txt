@@ -1,0 +1,3 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/Govee_LED_String/2hrsTimer.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/Govee_LED_String/Off.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/Govee_LED_String/On.sub

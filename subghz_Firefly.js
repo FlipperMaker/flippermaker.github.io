@@ -1,13 +1,19 @@
 class subghzFirefly{
 	constructor() {
 		this.cardSpanName = 'cardFirefly';
+		this.cardTitle = 'Firefly/Linear (SubGHz)';
+		
+		
+		
+		this.cardCollapseBodyClassCode = cardCollapseEnabled() ? "collapse" : "";
+		this.cardCollapseBodyIdCode = this.cardSpanName+'Body';
+		
+		this.cardCollapseHeadCode = genCardHeadCode(this.cardTitle, this.cardSpanName);
 		this.cardCode = `
 		<div class="card mb-3">
-		  <div class="card-header text-center">
-			<h5 class="card-title">Firefly/Linear (SubGHz)</h5>
-		  </div>
+		  ${this.cardCollapseHeadCode}
 
-		  <div class="card-body">
+		  <div class="card-body ${this.cardCollapseBodyClassCode}" id="${this.cardCollapseBodyIdCode}">
 			<!--<h5 class="card-title">Firefly</h5>-->
 			<form id="generateFirefly">
 			  <div class="mb-3">
@@ -30,6 +36,7 @@ class subghzFirefly{
 	}
 	renderCard(){
 		document.getElementById(this.cardSpanName).innerHTML = this.cardCode;
+		showHideCard(this.cardSpanName+'BodyCollapse', '#'+this.cardSpanName+'Body');
 		this.formFirefly = document.getElementById("generateFirefly");
 		
 		
