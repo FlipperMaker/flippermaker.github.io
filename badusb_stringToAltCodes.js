@@ -17,13 +17,13 @@ class badusbStringToAltCodes {
 		this.formID = `generate${this.className}`;
 
 		this.cardTitle = 'String To Alt Code (BadUSB)';
-		this.cardCollapsed = false;
+		this.cardCollapsed = true;
 
 		this.card = new CardTools_Card(this.cardSpanName, this.cardTitle, this.cardCollapsed);
 		this.form = new CardTools_Form(this.formID);
 		this.form_id = this.form.formID;
 		//this.form_id_filename = this.form.addFieldText('File Name','filename','text','Do not include ".txt" It will be added automatically.');
-		this.form_id_stringToConvert = this.form.addFieldTextArea('Input String', 'inputText', '', `ALT 1`);
+		this.form_id_stringToConvert = this.form.addFieldTextArea('Input String', 'inputText', '', `Input your\nText\nHERE`);
 		//console.log(`form_id_stringToConvert: ${this.form_id_stringToConvert}`);
 		this.form_id_stringConverted = this.form.addFieldTextArea('Output BadUSB Code', 'outputText');
 		this.form_id_button_submit = this.form.addButtonsResetSubmit_Generic();

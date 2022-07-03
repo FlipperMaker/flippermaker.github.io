@@ -16,9 +16,9 @@ class infoGeneral{
 			<div class="card-body ${this.cardCollapseBodyClassCode}" id="${this.cardCollapseBodyIdCode}">
 				<h5>Newest Updates</h5>
 				<ul>
+					<li>7/3/2022: BadUSB: Convert strings/text to Alt Code</li>
 					<li>6/15/2022: Custom version of dev.flpr.app for downloading files</li>
 					<li>6/13/2022: Create NTAG213, NTAG215, and NTAG216! Create NTAG21X NFC files that open a URL. More features coming soon.</li>
-					<li>5/27/2022: Create download links for Flipper Zero files. You can paste in the file content, pull the file directly from GitHub, or select from a list of ready to go files. Makes installing Flipper Zero files on the go super easy, and sharing your files even easier!</li>
 					<li><a href="https://github.com/FlipperMaker/flippermaker.github.io/discussions">Older Updates</a></li>
 				</ul>
 				<h5>Contact Me</h5>

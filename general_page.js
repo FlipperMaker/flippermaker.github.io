@@ -1,4 +1,4 @@
-var FLIPPERMAKER_VERSION = '6_30_2022_1';
+var FLIPPERMAKER_VERSION = '7_3_2022_1';
 
 
 function loadScript(url, callback) {
