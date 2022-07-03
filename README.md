@@ -9,8 +9,8 @@ Community updates/pull requests are encouraged!
 * On your PC option 2: Download the generated file, then copy the file to the correct directory on your Flipper Zero's SD Card.
 
 
-## Update 6/15/2022
-* Custom version of [dev.flpr.app](https://dev.flpr.app) for downloading files
+## Update 7/3/2022
+* BadUSB: Convert strings/text to Alt Code
 * [`Previous Updates`](https://github.com/FlipperMaker/flippermaker.github.io/discussions/categories/updates)
 
 ## Currently Supported Protocols:
@@ -25,6 +25,7 @@ Community updates/pull requests are encouraged!
 * NFC URL Creator
 * Flipper File Sharing and on-the-go install
 * OOK to .sub
+* BadUSB: Convert strings/text to Alt Code
 
 ## Future:
 * Ability to generate settings files [`Notes 1`](https://github.com/UberGuidoZ/Flipper/tree/main/Sub-GHz/ext) [`Notes 2`](https://github.com/Eng1n33r/flipperzero-firmware/blob/dev/documentation/UniRFRemix.md)
