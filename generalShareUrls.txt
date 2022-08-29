@@ -17,31 +17,92 @@ UberGuidoZ-Infrared~https://github.com/FlipperMaker/flippermaker.github.io/blob/
 UberGuidoZ-Music_Player~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_Music_Player.txt
 UberGuidoZ-NFC_Fun_Files~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_NFC_Fun_Files.txt
 UberGuidoZ-NFC_mf_classic_dict~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_NFC_mf_classic_dict.txt
-UberGuidoZ-SubGHz_Ceiling Fans~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Ceiling Fans.txt
-UberGuidoZ-SubGHz_Ceiling Fans_Hampton Bay Ceiling Fan~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Ceiling Fans_Hampton Bay Ceiling Fan.txt
-UberGuidoZ-SubGHz_Ceiling Fans_Mink aire~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Ceiling Fans_Mink aire.txt
+UberGuidoZ-SubGHz_Ceiling_Fans_FT1211R~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Ceiling_Fans_FT1211R.txt
+UberGuidoZ-SubGHz_Ceiling_Fans~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Ceiling_Fans.txt
+UberGuidoZ-SubGHz_Ceiling_Fans_Hampton_Bay_Ceiling_Fan~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Ceiling_Fans_Hampton_Bay_Ceiling_Fan.txt
+UberGuidoZ-SubGHz_Ceiling_Fans_Harbor_Breeze_A25_TX015~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Ceiling_Fans_Harbor_Breeze_A25_TX015.txt
+UberGuidoZ-SubGHz_Ceiling_Fans_Harbor_Breeze_KUJCE10712~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Ceiling_Fans_Harbor_Breeze_KUJCE10712.txt
+UberGuidoZ-SubGHz_Ceiling_Fans_LPHUMEX_1C15C1668~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Ceiling_Fans_LPHUMEX_1C15C1668.txt
+UberGuidoZ-SubGHz_Ceiling_Fans_Mink_aire~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Ceiling_Fans_Mink_aire.txt
+UberGuidoZ-SubGHz_Ceiling_Fans_Sofucor_Fan_KBS_56K001~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Ceiling_Fans_Sofucor_Fan_KBS_56K001.txt
+UberGuidoZ-SubGHz_Ceiling_Fans_TX028C_S Remote_0000~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Ceiling_Fans_TX028C_S Remote_0000.txt
+UberGuidoZ-SubGHz_Ceiling_Fans_TX028C_S Remote_0001~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Ceiling_Fans_TX028C_S Remote_0001.txt
+UberGuidoZ-SubGHz_Ceiling_Fans_TX028C_S Remote_0010~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Ceiling_Fans_TX028C_S Remote_0010.txt
+UberGuidoZ-SubGHz_Ceiling_Fans_TX028C_S Remote_0011~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Ceiling_Fans_TX028C_S Remote_0011.txt
+UberGuidoZ-SubGHz_Ceiling_Fans_TX028C_S Remote_0100~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Ceiling_Fans_TX028C_S Remote_0100.txt
+UberGuidoZ-SubGHz_Ceiling_Fans_TX028C_S Remote_0101~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Ceiling_Fans_TX028C_S Remote_0101.txt
+UberGuidoZ-SubGHz_Ceiling_Fans_TX028C_S Remote_0110~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Ceiling_Fans_TX028C_S Remote_0110.txt
+UberGuidoZ-SubGHz_Ceiling_Fans_TX028C_S Remote_0111~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Ceiling_Fans_TX028C_S Remote_0111.txt
+UberGuidoZ-SubGHz_Ceiling_Fans_TX028C_S Remote_1000~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Ceiling_Fans_TX028C_S Remote_1000.txt
+UberGuidoZ-SubGHz_Ceiling_Fans_TX028C_S Remote_1001~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Ceiling_Fans_TX028C_S Remote_1001.txt
+UberGuidoZ-SubGHz_Ceiling_Fans_TX028C_S Remote_1010~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Ceiling_Fans_TX028C_S Remote_1010.txt
+UberGuidoZ-SubGHz_Ceiling_Fans_TX028C_S Remote_1011~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Ceiling_Fans_TX028C_S Remote_1011.txt
+UberGuidoZ-SubGHz_Ceiling_Fans_TX028C_S Remote_1100~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Ceiling_Fans_TX028C_S Remote_1100.txt
+UberGuidoZ-SubGHz_Ceiling_Fans_TX028C_S Remote_1101~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Ceiling_Fans_TX028C_S Remote_1101.txt
+UberGuidoZ-SubGHz_Ceiling_Fans_TX028C_S Remote_1110~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Ceiling_Fans_TX028C_S Remote_1110.txt
+UberGuidoZ-SubGHz_Ceiling_Fans_TX028C_S Remote_1111~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Ceiling_Fans_TX028C_S Remote_1111.txt
+UberGuidoZ-SubGHz_Ceiling_Fans_chq8bt7030t_code1111~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Ceiling_Fans_chq8bt7030t_code1111.txt
+UberGuidoZ-SubGHz_Door_Entry_Motion_Sensor_Chimes~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Door_Entry_Motion_Sensor_Chimes.txt
+UberGuidoZ-SubGHz_Doorbells_1byone~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Doorbells_1byone.txt
+UberGuidoZ-SubGHz_Doorbells_AVANTEK~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Doorbells_AVANTEK.txt
 UberGuidoZ-SubGHz_Doorbells~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Doorbells.txt
-UberGuidoZ-SubGHz_Gates_Lift master~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Gates_Lift master.txt
-UberGuidoZ-SubGHz_Gates_Road Arm (UK)~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Gates_Road Arm (UK).txt
-UberGuidoZ-SubGHz_Gates_deBruijn_Binary~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Gates_deBruijn_Binary.txt
-UberGuidoZ-SubGHz_Gates_deBruijn_EU Edition_Binary~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Gates_deBruijn_EU Edition_Binary.txt
-UberGuidoZ-SubGHz_Gates_deBruijn_EU Edition_North Shore Comm Doors~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Gates_deBruijn_EU Edition_North Shore Comm Doors.txt
-UberGuidoZ-SubGHz_Gates_deBruijn_EU Edition_Open Sesame~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Gates_deBruijn_EU Edition_Open Sesame.txt
-UberGuidoZ-SubGHz_Gates_deBruijn_EU Edition_Raw~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Gates_deBruijn_EU Edition_Raw.txt
-UberGuidoZ-SubGHz_Gates_deBruijn_North Shore Comm Doors~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Gates_deBruijn_North Shore Comm Doors.txt
-UberGuidoZ-SubGHz_Gates_deBruijn_Open Sesame~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Gates_deBruijn_Open Sesame.txt
-UberGuidoZ-SubGHz_Gates_deBruijn_Raw~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Gates_deBruijn_Raw.txt
+UberGuidoZ-SubGHz_Doorbells_intertechno_MLR_7100_Doorbell~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Doorbells_intertechno_MLR_7100_Doorbell.txt
+UberGuidoZ-SubGHz_Garages_CAME_brute_force_12Bit_433.92Mhz_100~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Garages_CAME_brute_force_12Bit_433.92Mhz_100.txt
+UberGuidoZ-SubGHz_Garages_CAME_brute_force_12Bit_433.92Mhz_1000~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Garages_CAME_brute_force_12Bit_433.92Mhz_1000.txt
+UberGuidoZ-SubGHz_Garages_CAME_brute_force_12Bit_433.92Mhz_2000~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Garages_CAME_brute_force_12Bit_433.92Mhz_2000.txt
+UberGuidoZ-SubGHz_Garages_CAME_brute_force_12Bit_433.92Mhz_4096~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Garages_CAME_brute_force_12Bit_433.92Mhz_4096.txt
+UberGuidoZ-SubGHz_Garages_CAME_brute_force_12Bit_433.92Mhz_500~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Garages_CAME_brute_force_12Bit_433.92Mhz_500.txt
+UberGuidoZ-SubGHz_Garages_CAME_brute_force_12Bit_868.35Mhz_100~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Garages_CAME_brute_force_12Bit_868.35Mhz_100.txt
+UberGuidoZ-SubGHz_Garages_CAME_brute_force_12Bit_868.35Mhz_1000~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Garages_CAME_brute_force_12Bit_868.35Mhz_1000.txt
+UberGuidoZ-SubGHz_Garages_CAME_brute_force_12Bit_868.35Mhz_2000~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Garages_CAME_brute_force_12Bit_868.35Mhz_2000.txt
+UberGuidoZ-SubGHz_Garages_CAME_brute_force_12Bit_868.35Mhz_4096~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Garages_CAME_brute_force_12Bit_868.35Mhz_4096.txt
+UberGuidoZ-SubGHz_Garages_CAME_brute_force_12Bit_868.35Mhz_500~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Garages_CAME_brute_force_12Bit_868.35Mhz_500.txt
+UberGuidoZ-SubGHz_Garages_Security_2.0_7359~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Garages_Security_2.0_7359.txt
+UberGuidoZ-SubGHz_Garages_Security_2.0_7359_Raw~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Garages_Security_2.0_7359_Raw.txt
+UberGuidoZ-SubGHz_Garages_Security_2.0_7922_Raw~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Garages_Security_2.0_7922_Raw.txt
+UberGuidoZ-SubGHz_Garages_Security_2.0_7964~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Garages_Security_2.0_7964.txt
+UberGuidoZ-SubGHz_Garages_Security_2.0_7964_raw~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Garages_Security_2.0_7964_raw.txt
+UberGuidoZ-SubGHz_Garages_deBruijn_Binary~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Garages_deBruijn_Binary.txt
+UberGuidoZ-SubGHz_Garages_deBruijn_EU_Edition_Binary~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Garages_deBruijn_EU_Edition_Binary.txt
+UberGuidoZ-SubGHz_Garages_deBruijn_EU_Edition_North_Shore_Comm_Doors~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Garages_deBruijn_EU_Edition_North_Shore_Comm_Doors.txt
+UberGuidoZ-SubGHz_Garages_deBruijn_EU_Edition_Open_Sesame~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Garages_deBruijn_EU_Edition_Open_Sesame.txt
+UberGuidoZ-SubGHz_Garages_deBruijn_EU_Edition_Raw~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Garages_deBruijn_EU_Edition_Raw.txt
+UberGuidoZ-SubGHz_Garages_deBruijn_North_Shore_Comm_Doors~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Garages_deBruijn_North_Shore_Comm_Doors.txt
+UberGuidoZ-SubGHz_Garages_deBruijn_Open_Sesame~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Garages_deBruijn_Open_Sesame.txt
+UberGuidoZ-SubGHz_Garages_deBruijn_Raw_315MHz~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Garages_deBruijn_Raw_315MHz.txt
+UberGuidoZ-SubGHz_Gas_Sign~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Gas_Sign.txt
+UberGuidoZ-SubGHz_Gates_Lift_master~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Gates_Lift_master.txt
+UberGuidoZ-SubGHz_Gates_Road_Arm_(UK)~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Gates_Road_Arm_(UK).txt
 UberGuidoZ-SubGHz_Handicap~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Handicap.txt
+UberGuidoZ-SubGHz_LED_CrowdLED~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_LED_CrowdLED.txt
 UberGuidoZ-SubGHz_LED_Govee_LED_String~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_LED_Govee_LED_String.txt
 UberGuidoZ-SubGHz_LED_LEDGLOW_Motorcycle_Lights~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_LED_LEDGLOW_Motorcycle_Lights.txt
-UberGuidoZ-SubGHz_LED_RITSEC Neon Light~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_LED_RITSEC Neon Light.txt
+UberGuidoZ-SubGHz_LED_Meihua_LED_Frame_LXZK_TX1021~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_LED_Meihua_LED_Frame_LXZK_TX1021.txt
+UberGuidoZ-SubGHz_LED_RGB_LED_Lamp~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_LED_RGB_LED_Lamp.txt
+UberGuidoZ-SubGHz_LED_RITSEC_Neon_Light~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_LED_RITSEC_Neon_Light.txt
+UberGuidoZ-SubGHz_LED_cep_light~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_LED_cep_light.txt
+UberGuidoZ-SubGHz_Misc_BN_Link_Smartplug~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Misc_BN_Link_Smartplug.txt
+UberGuidoZ-SubGHz_Misc_Boomtone_DJ~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Misc_Boomtone_DJ.txt
+UberGuidoZ-SubGHz_Misc_Bubendorff_Electronic_Shutter~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Misc_Bubendorff_Electronic_Shutter.txt
 UberGuidoZ-SubGHz_Misc~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Misc.txt
+UberGuidoZ-SubGHz_Misc_Sextoy_Egg Vibrator~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Misc_Sextoy_Egg Vibrator.txt
 UberGuidoZ-SubGHz_Misc_Sextoy~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Misc_Sextoy.txt
-UberGuidoZ-SubGHz_Restaurant Pagers~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Restaurant Pagers.txt
+UberGuidoZ-SubGHz_Misc_Sextoy_Sinful Bullet Vibrator~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Misc_Sextoy_Sinful Bullet Vibrator.txt
+UberGuidoZ-SubGHz_Misc_Unitree_Go1~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Misc_Unitree_Go1.txt
+UberGuidoZ-SubGHz_Remote Outlet Switches_Powerfix_RCB_I_3600R~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Remote Outlet Switches_Powerfix_RCB_I_3600R.txt
+UberGuidoZ-SubGHz_Restaurant_Pagers_LRS_Pagers~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Restaurant_Pagers_LRS_Pagers.txt
+UberGuidoZ-SubGHz_Restaurant_Pagers_LRS_Pagers_Pager_Bombers~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Restaurant_Pagers_LRS_Pagers_Pager_Bombers.txt
+UberGuidoZ-SubGHz_Restaurant_Pagers_LRS_Pagers_The_Habit_SoCal~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Restaurant_Pagers_LRS_Pagers_The_Habit_SoCal.txt
+UberGuidoZ-SubGHz_Restaurant_Pagers_Retekess_Pagers_T111~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Restaurant_Pagers_Retekess_Pagers_T111.txt
+UberGuidoZ-SubGHz_Restaurant_Pagers_Retekess_Pagers_T119~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Restaurant_Pagers_Retekess_Pagers_T119.txt
 UberGuidoZ-SubGHz_Thermostat_Nashone~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Thermostat_Nashone.txt
 UberGuidoZ-SubGHz_Vehicles_EL50448_TPMS_Relearn_Tool~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Vehicles_EL50448_TPMS_Relearn_Tool.txt
+UberGuidoZ-SubGHz_Vehicles_Ebay_Door_Trunk_Remote~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Vehicles_Ebay_Door_Trunk_Remote.txt
+UberGuidoZ-SubGHz_Vehicles_Lamborghini_Huracan~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Vehicles_Lamborghini_Huracan.txt
+UberGuidoZ-SubGHz_Vehicles_Lexus_Toyota_2015_21_NX~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Vehicles_Lexus_Toyota_2015_21_NX.txt
 UberGuidoZ-SubGHz_Vehicles_Misc~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Vehicles_Misc.txt
 UberGuidoZ-SubGHz_Vehicles_Tesla~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Vehicles_Tesla.txt
+UberGuidoZ-SubGHz_Vehicles_Tesla_BEST_PORT_OPENER~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/UberGuidoZ_SubGHz_Vehicles_Tesla_BEST_PORT_OPENER.txt
 WetoxTeam-intercom_keys_msk_keys_ibutton~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/WetoxTeam_intercom_keys_msk_keys_ibutton.txt
 WetoxTeam-intercom_keys_msk_keys_lfrfid~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/WetoxTeam_intercom_keys_msk_keys_lfrfid.txt
 WetoxTeam-intercom_keys_spb_keys_ibutton~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/WetoxTeam_intercom_keys_spb_keys_ibutton.txt
@@ -50,3 +111,4 @@ WetoxTeam-intercom_keys_spb_keys_nfc~https://github.com/FlipperMaker/flippermake
 MuddledBox-Vehicles_Tesla~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/MuddledBox_Vehicles_Tesla.txt
 MuddledBox-deBruijn_Binary~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/MuddledBox_deBruijn_Binary.txt
 MuddledBox-deBruijn_North Shore Commercial Doors~https://github.com/FlipperMaker/flippermaker.github.io/blob/main/sharefiles/MuddledBox_deBruijn_North Shore Commercial Doors.txt
+
