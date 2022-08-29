@@ -1,0 +1,7 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/CrowdLED/blue.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/CrowdLED/cyan.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/CrowdLED/green.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/CrowdLED/magenta.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/CrowdLED/red.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/CrowdLED/white.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/CrowdLED/yellow.sub

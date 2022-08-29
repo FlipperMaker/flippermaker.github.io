@@ -1,0 +1,6 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Misc/BN_Link_Smartplug/Off_1.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Misc/BN_Link_Smartplug/Off_2.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Misc/BN_Link_Smartplug/Off_3.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Misc/BN_Link_Smartplug/On_1.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Misc/BN_Link_Smartplug/On_2.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Misc/BN_Link_Smartplug/On_3.sub

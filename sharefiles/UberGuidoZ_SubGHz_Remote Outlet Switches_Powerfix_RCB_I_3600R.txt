@@ -1,0 +1,12 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Remote Outlet Switches/Powerfix_RCB-I_3600R/1_OFF.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Remote Outlet Switches/Powerfix_RCB-I_3600R/1_ON.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Remote Outlet Switches/Powerfix_RCB-I_3600R/2_OFF.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Remote Outlet Switches/Powerfix_RCB-I_3600R/2_ON.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Remote Outlet Switches/Powerfix_RCB-I_3600R/3_OFF.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Remote Outlet Switches/Powerfix_RCB-I_3600R/3_ON.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Remote Outlet Switches/Powerfix_RCB-I_3600R/4_OFF.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Remote Outlet Switches/Powerfix_RCB-I_3600R/4_ON.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Remote Outlet Switches/Powerfix_RCB-I_3600R/ALL_OFF.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Remote Outlet Switches/Powerfix_RCB-I_3600R/ALL_ON.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Remote Outlet Switches/Powerfix_RCB-I_3600R/Bright.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Remote Outlet Switches/Powerfix_RCB-I_3600R/Dim.sub

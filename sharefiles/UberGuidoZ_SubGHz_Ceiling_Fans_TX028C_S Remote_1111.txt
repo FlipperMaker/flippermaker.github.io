@@ -1,0 +1,9 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/TX028C-S Remote/1111/fan_high.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/TX028C-S Remote/1111/fan_low.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/TX028C-S Remote/1111/fan_med.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/TX028C-S Remote/1111/fan_off.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/TX028C-S Remote/1111/light_color_temp_toggle.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/TX028C-S Remote/1111/light_dimmer_3_secods_raw.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/TX028C-S Remote/1111/light_dimmer_adjust.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/TX028C-S Remote/1111/light_off.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/TX028C-S Remote/1111/light_on.sub

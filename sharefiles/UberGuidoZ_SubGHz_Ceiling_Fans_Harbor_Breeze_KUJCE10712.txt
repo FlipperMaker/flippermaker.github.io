@@ -1,0 +1,5 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/Harbor_Breeze/KUJCE10712/fan_light_toggle.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/Harbor_Breeze/KUJCE10712/fan_off.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/Harbor_Breeze/KUJCE10712/fan_speed_1.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/Harbor_Breeze/KUJCE10712/fan_speed_2.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/Harbor_Breeze/KUJCE10712/fan_speed_3.sub

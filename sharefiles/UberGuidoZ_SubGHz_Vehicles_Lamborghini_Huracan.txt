@@ -1,0 +1,3 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Vehicles/Lamborghini_Huracan/Lambo_Lock.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Vehicles/Lamborghini_Huracan/Lambo_Trunk.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Vehicles/Lamborghini_Huracan/Lambo_Unlock.sub

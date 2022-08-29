@@ -1,0 +1,4 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Garages/deBruijn/Open_Sesame/10bit-300mhz.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Garages/deBruijn/Open_Sesame/10bit-310mhz.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Garages/deBruijn/Open_Sesame/9bit-315mhz.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Garages/deBruijn/Open_Sesame/9bit-390mhz.sub

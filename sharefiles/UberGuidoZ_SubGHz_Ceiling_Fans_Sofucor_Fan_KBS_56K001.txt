@@ -1,0 +1,11 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/Sofucor_Fan_KBS-56K001/light_down.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/Sofucor_Fan_KBS-56K001/light_on.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/Sofucor_Fan_KBS-56K001/light_up.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/Sofucor_Fan_KBS-56K001/power_off.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/Sofucor_Fan_KBS-56K001/reverse.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/Sofucor_Fan_KBS-56K001/speed_1.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/Sofucor_Fan_KBS-56K001/speed_2.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/Sofucor_Fan_KBS-56K001/speed_3.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/Sofucor_Fan_KBS-56K001/speed_4.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/Sofucor_Fan_KBS-56K001/speed_5.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/Sofucor_Fan_KBS-56K001/speed_6.sub

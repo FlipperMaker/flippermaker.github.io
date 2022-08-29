@@ -1,4 +1,6 @@
-https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Misc/Crosswalk_Unknown.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Misc/Crosswalk_Unknown_12.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Misc/Crosswalk_Unknown_24.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Misc/Unknown_433_Princeton.sub
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Misc/came.sub
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Misc/came_twee.sub
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Misc/doorhan.sub

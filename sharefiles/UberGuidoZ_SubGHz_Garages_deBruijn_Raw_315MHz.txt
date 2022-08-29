@@ -1,0 +1,5 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Garages/deBruijn/Raw_315MHz/Db10.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Garages/deBruijn/Raw_315MHz/Db11.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Garages/deBruijn/Raw_315MHz/Db12.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Garages/deBruijn/Raw_315MHz/Db8.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Garages/deBruijn/Raw_315MHz/Db9.sub

@@ -1,0 +1,3 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Restaurant_Pagers/Retekess_Pagers/T119/Retekess_T119_Bruteforce.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Restaurant_Pagers/Retekess_Pagers/T119/Retekess_T119_Bruteforce_Extended.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Restaurant_Pagers/Retekess_Pagers/T119/t119bruteforcerupdated.sub

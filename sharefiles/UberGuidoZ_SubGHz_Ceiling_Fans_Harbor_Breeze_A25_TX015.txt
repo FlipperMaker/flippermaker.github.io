@@ -1,0 +1,8 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/Harbor_Breeze/A25-TX015/0.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/Harbor_Breeze/A25-TX015/1.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/Harbor_Breeze/A25-TX015/2.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/Harbor_Breeze/A25-TX015/3.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/Harbor_Breeze/A25-TX015/Clock.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/Harbor_Breeze/A25-TX015/Cool.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/Harbor_Breeze/A25-TX015/Heat.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/Harbor_Breeze/A25-TX015/Light.sub

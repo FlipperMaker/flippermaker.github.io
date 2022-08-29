@@ -1,0 +1,10 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Garages/deBruijn/EU_Edition/Raw/Db10-433MHz-EU.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Garages/deBruijn/EU_Edition/Raw/Db10-868MHz-EU.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Garages/deBruijn/EU_Edition/Raw/Db11-433MHz-EU.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Garages/deBruijn/EU_Edition/Raw/Db11-868MHz-EU.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Garages/deBruijn/EU_Edition/Raw/Db12-433MHz-EU.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Garages/deBruijn/EU_Edition/Raw/Db12-868MHz-EU.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Garages/deBruijn/EU_Edition/Raw/Db8-433MHz-EU.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Garages/deBruijn/EU_Edition/Raw/Db8-868MHz-EU.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Garages/deBruijn/EU_Edition/Raw/Db9-433MHz-EU.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Garages/deBruijn/EU_Edition/Raw/Db9-868MHz-EU.sub

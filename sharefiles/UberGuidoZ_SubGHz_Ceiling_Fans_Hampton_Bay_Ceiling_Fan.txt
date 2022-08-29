@@ -1,0 +1,5 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/Hampton_Bay_Ceiling_Fan/0_Fan_off.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/Hampton_Bay_Ceiling_Fan/1_Fan_low.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/Hampton_Bay_Ceiling_Fan/2_Fan_med.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/Hampton_Bay_Ceiling_Fan/3_Fan_hi.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/Hampton_Bay_Ceiling_Fan/Light_Toggle.sub

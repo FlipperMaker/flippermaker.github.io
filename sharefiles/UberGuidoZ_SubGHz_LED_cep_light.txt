@@ -1,0 +1,13 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/cep_light/10_Milk.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/cep_light/11_Game.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/cep_light/12_PC.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/cep_light/13_Bady.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/cep_light/1_OnOff.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/cep_light/2_Sleep.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/cep_light/3_Light.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/cep_light/4_Dark.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/cep_light/5_Warn.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/cep_light/6_Cold.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/cep_light/7_Max.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/cep_light/8_Cafe.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/cep_light/9_Read.sub

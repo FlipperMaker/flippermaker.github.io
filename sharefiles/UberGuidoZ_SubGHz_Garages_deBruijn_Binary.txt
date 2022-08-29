@@ -1,0 +1,5 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Garages/deBruijn/Binary/deBruijn300AllBit.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Garages/deBruijn/Binary/deBruijn310AllBit.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Garages/deBruijn/Binary/deBruijn315AllBit.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Garages/deBruijn/Binary/deBruijn318AllBit.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Garages/deBruijn/Binary/deBruijn390AllBit.sub

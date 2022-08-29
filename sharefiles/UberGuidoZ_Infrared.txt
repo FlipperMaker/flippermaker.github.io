@@ -1,1 +1,5 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Infrared/ac.ir
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Infrared/audio.ir
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Infrared/fans.ir
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Infrared/projectors.ir
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Infrared/tv.ir

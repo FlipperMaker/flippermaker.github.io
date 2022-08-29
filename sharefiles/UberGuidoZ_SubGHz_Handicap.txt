@@ -1,3 +1,4 @@
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Handicap/Handicap_button_1270.sub
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Handicap/Handicap_button_1650.sub
 https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Handicap/handicap_push_door.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Handicap/ook650_315substack.sub

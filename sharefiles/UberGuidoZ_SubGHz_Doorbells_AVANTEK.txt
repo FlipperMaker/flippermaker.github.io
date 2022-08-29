@@ -1,0 +1,2 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Doorbells/AVANTEK/AVANTEK_Mini_CB11_Repeating.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Doorbells/AVANTEK/AVANTEK_Mini_CB11_Single.sub

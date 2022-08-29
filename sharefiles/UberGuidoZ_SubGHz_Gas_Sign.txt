@@ -1,0 +1,7 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Gas_Sign/Back_gas.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Gas_Sign/Down_gas.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Gas_Sign/Edit_mode.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Gas_Sign/Left_gas.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Gas_Sign/Right_gas.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Gas_Sign/S_gas.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Gas_Sign/Up_gas.sub

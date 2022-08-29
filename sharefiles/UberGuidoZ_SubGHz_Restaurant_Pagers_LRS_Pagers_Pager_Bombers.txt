@@ -1,0 +1,10 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Restaurant_Pagers/LRS_Pagers/Pager_Bombers/00_All_Pager_Bomber.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Restaurant_Pagers/LRS_Pagers/Pager_Bombers/pager_restid_01.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Restaurant_Pagers/LRS_Pagers/Pager_Bombers/pager_restid_02.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Restaurant_Pagers/LRS_Pagers/Pager_Bombers/pager_restid_03.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Restaurant_Pagers/LRS_Pagers/Pager_Bombers/pager_restid_04.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Restaurant_Pagers/LRS_Pagers/Pager_Bombers/pager_restid_05.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Restaurant_Pagers/LRS_Pagers/Pager_Bombers/pager_restid_06.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Restaurant_Pagers/LRS_Pagers/Pager_Bombers/pager_restid_07.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Restaurant_Pagers/LRS_Pagers/Pager_Bombers/pager_restid_08.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Restaurant_Pagers/LRS_Pagers/Pager_Bombers/pager_restid_09.sub

@@ -1,0 +1,2 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/Mink_aire/Mink_Aire_code_set_0_Fan_High.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Ceiling_Fans/Mink_aire/Mink_Aire_code_set_0_Fan_Off.sub

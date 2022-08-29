@@ -1,0 +1,3 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Misc/Sextoy/Egg Vibrator/Egg_vib_intensity.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Misc/Sextoy/Egg Vibrator/Egg_vib_mode.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Misc/Sextoy/Egg Vibrator/Egg_vib_power.sub

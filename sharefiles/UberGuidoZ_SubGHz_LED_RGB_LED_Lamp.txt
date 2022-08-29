@@ -1,0 +1,14 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/RGB_LED_Lamp/add_diy.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/RGB_LED_Lamp/blue.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/RGB_LED_Lamp/delete_diy.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/RGB_LED_Lamp/diy_minus.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/RGB_LED_Lamp/diy_plus.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/RGB_LED_Lamp/green.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/RGB_LED_Lamp/menu_auto.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/RGB_LED_Lamp/mode_minus.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/RGB_LED_Lamp/mode_plus.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/RGB_LED_Lamp/power.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/RGB_LED_Lamp/red.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/RGB_LED_Lamp/speed_minus.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/RGB_LED_Lamp/speed_plus.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/RGB_LED_Lamp/white.sub

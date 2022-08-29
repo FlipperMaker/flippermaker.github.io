@@ -1,0 +1,2 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Misc/Bubendorff_Electronic_Shutter/Down.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Misc/Bubendorff_Electronic_Shutter/Up.sub

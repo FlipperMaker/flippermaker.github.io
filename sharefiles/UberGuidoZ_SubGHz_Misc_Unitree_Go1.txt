@@ -1,0 +1,2 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Misc/Unitree_Go1/Unitree_Go1.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Misc/Unitree_Go1/Unitree_Go1_raw.sub

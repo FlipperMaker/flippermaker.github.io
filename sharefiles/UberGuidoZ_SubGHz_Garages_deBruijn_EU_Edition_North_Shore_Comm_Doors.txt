@@ -1,0 +1,2 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Garages/deBruijn/EU_Edition/North_Shore_Comm_Doors/deBruijn433NSCD-EU.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Garages/deBruijn/EU_Edition/North_Shore_Comm_Doors/deBruijn868NSCD-EU.sub

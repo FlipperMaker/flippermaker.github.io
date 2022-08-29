@@ -1,0 +1,7 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/Meihua_LED_Frame_LXZK-TX1021/LED_BRIGHTER.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/Meihua_LED_Frame_LXZK-TX1021/LED_Blue.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/Meihua_LED_Frame_LXZK-TX1021/LED_DARKER.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/Meihua_LED_Frame_LXZK-TX1021/LED_Green.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/Meihua_LED_Frame_LXZK-TX1021/LED_Off.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/Meihua_LED_Frame_LXZK-TX1021/LED_On.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/LED/Meihua_LED_Frame_LXZK-TX1021/LED_Red.sub

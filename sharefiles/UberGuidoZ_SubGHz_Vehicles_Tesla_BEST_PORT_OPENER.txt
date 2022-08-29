@@ -1,0 +1,4 @@
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Vehicles/Tesla/BEST_PORT_OPENER/Better_Tesla_Charge_Port_Opener_315MHz_AM270.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Vehicles/Tesla/BEST_PORT_OPENER/Better_Tesla_Charge_Port_Opener_315MHz_AM650.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Vehicles/Tesla/BEST_PORT_OPENER/Better_Tesla_Charge_Port_Opener_433.92MHz_AM270.sub
+https://raw.githubusercontent.com/UberGuidoZ/Flipper/main/Sub-GHz/Vehicles/Tesla/BEST_PORT_OPENER/Better_Tesla_Charge_Port_Opener_433.92MHz_AM650.sub
